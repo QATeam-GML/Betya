@@ -1,0 +1,8 @@
+
+🔹 Test Start: Valid login (username)
+👤 Username: Satish
+🌐 Navigated to homepage
+🔐 Login attempted
+✅ Login successful, dropdown visible
+🚪 Logged out successfully
+✅ PASS: Valid login with username and password

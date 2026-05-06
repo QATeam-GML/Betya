@@ -1,0 +1,4 @@
+
+===== VALIDATION ERRORS =====
+1. Incorrect email/username or password
+============================

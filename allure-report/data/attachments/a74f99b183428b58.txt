@@ -1,0 +1,10 @@
+
+🔹 Test Start: Profile Settings
+👤 User: qasatish27
+✅ Login successful
+⬇️ Opened dropdown
+⚙️ Clicked Settings
+🌐 Current URL: https://www.betya.com/en/profile/settings/security
+🔎 Header Text: Security
+✅ Security page verified
+✅ PASS: Login and access profile settings page

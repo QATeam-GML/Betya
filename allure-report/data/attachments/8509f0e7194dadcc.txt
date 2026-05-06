@@ -1,0 +1,4 @@
+
+===== VALIDATION ERRORS =====
+1. Password must be at least 6 characters long
+============================

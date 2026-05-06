@@ -1,0 +1,5 @@
+
+🔹 Test Start: Login performance
+⏱ Login time: 10264ms
+⚠️ Slow login detected
+✅ PASS: Login performance check

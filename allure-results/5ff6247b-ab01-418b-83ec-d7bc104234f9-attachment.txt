@@ -1,0 +1,5 @@
+
+🔹 Test Start: Session persistence
+🔄 Page reloaded
+✅ Session persisted after reload
+✅ PASS: Login session persists after reload

@@ -1,0 +1,18 @@
+
+🔹 Test Start: Multiple user login
+
+👤 Testing user: qasatish27
+✅ Login success: qasatish27
+
+👤 Testing user: qasatish27
+✅ Login success: qasatish27
+
+===== TEST SUMMARY =====
+✅ Passed Users:
+- qasatish27
+- qasatish27
+
+❌ Failed Users:
+🎉 No failed users
+========================
+

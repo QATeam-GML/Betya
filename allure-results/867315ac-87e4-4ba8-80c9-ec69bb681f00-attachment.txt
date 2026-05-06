@@ -1,0 +1,5 @@
+
+🔹 Test Start: Login with email
+📧 Email: jagan420@gmail.com
+✅ Login successful using email
+✅ PASS: Valid login using email

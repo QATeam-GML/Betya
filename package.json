@@ -1,0 +1,30 @@
+{
+  "name": "betja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npx rimraf allure-results allure-report",
+    "test": "npx playwright test",
+    "prepare:allure": "node prepare-allure.js",
+    "allure:report": "npm run prepare:allure && allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "test:footer": "npx playwright test tests/footerTest.spec.js",
+    "test:loginInvalid": "npx playwright test tests/loginInvalidTest.spec.js",
+    "test:login": "npx playwright test tests/loginTest.spec.js",
+    "test:nonapi:sequential": "npx playwright test tests/footerTest.spec.js && npx playwright test tests/loginInvalidTest.spec.js && npx playwright test tests/loginTest.spec.js",
+    "report": "npm run test && npm run allure:report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3",
+    "allure-playwright": "^3.4.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "node-fetch": "^2.7.0"
+  }
+}

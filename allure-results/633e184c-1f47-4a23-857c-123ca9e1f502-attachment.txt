@@ -1,0 +1,29 @@
+✅ Footer Logo → Betja Logo
+✅ Social - Telegram → Telegram
+✅ Social - Instagram → Instagram
+✅ Social - YouTube → YouTube
+✅ Social - Twitter → Twitter
+✅ Help - Support
+✅ Help - Contact Us → /en/contact-us
+✅ Help - FAQs → /en/faq
+✅ Terms - General Terms and Conditions → /en/terms-and-conditions
+✅ Terms - Promotions Terms → /en/promotional-terms
+✅ Terms - Privacy Policy → /en/privacy-policy
+✅ Terms - Cookie Policy → /en/cookie-policy
+✅ Terms - Responsible Gaming → /en/responsible-gaming
+✅ Age Notice → Persons under the age of 18 are not permitted to register or play.
+✅ Age Icon → Age Restricted
+✅ Payment - Bank Transfer → Bank Transfer
+✅ Payment - Bitcoin → Bitcoin
+✅ Payment - Cash to Code → Cash to Code
+✅ Payment - Ethereum → Ethereum Coin
+✅ Payment - Litecoin → Lite Coin
+✅ Payment - Tether → Tether Coin
+✅ Payment - NeoSurf → NeoSurf
+✅ Payment - Visa → Visa
+✅ Payment - Mastercard → Master Card
+✅ Copyright → BETYA ©2026, All rights reserved
+
+🚦 FINAL FOOTER STATUS:
+
+✅ FOOTER VALIDATION PASSED

@@ -1,0 +1,4 @@
+
+🔹 Test Start: Verify username display
+✅ Username visible: qasatish27
+✅ PASS: Verify logged-in username is displayed

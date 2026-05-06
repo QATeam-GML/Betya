@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Assertion Errors",
+    "matchedStatuses": ["failed"],
+    "matchedConditions": [
+      {
+        "keyword": "message",
+        "pattern": ".*AssertionError.*"
+      }
+    ]
+  },
+  {
+    "name": "Timeouts",
+    "matchedStatuses": ["failed"],
+    "matchedConditions": [
+      {
+        "keyword": "message",
+        "pattern": ".*Timeout.*"
+      }
+    ]
+  },
+  {
+    "name": "Element Not Found",
+    "matchedStatuses": ["failed"],
+    "matchedConditions": [
+      {
+        "keyword": "message",
+        "pattern": ".*No element found.*|.*Unable to locate element.*"
+      }
+    ]
+  },
+  {
+    "name": "Navigation Errors",
+    "matchedStatuses": ["failed"],
+    "matchedConditions": [
+      {
+        "keyword": "message",
+        "pattern": ".*Navigation.*|.*net::ERR_FAILED.*"
+      }
+    ]
+  },
+  {
+    "name": "Server Errors (5xx)",
+    "matchedStatuses": ["failed"],
+    "matchedConditions": [
+      {
+        "keyword": "message",
+        "pattern": ".*5\\d\\d Server Error.*"
+      }
+    ]
+  },
+  {
+    "name": "Client Errors (4xx)",
+    "matchedStatuses": ["failed"],
+    "matchedConditions": [
+      {
+        "keyword": "message",
+        "pattern": ".*4\\d\\d Client Error.*"
+      }
+    ]
+  },
+  {
+    "name": "Playwright Errors",
+    "matchedStatuses": ["failed"],
+    "matchedConditions": [
+      {
+        "keyword": "trace",
+        "pattern": ".*playwright.*"
+      }
+    ]
+  },
+  {
+    "name": "Broken Tests",
+    "matchedStatuses": ["broken"]
+  },
+  {
+    "name": "Product Defects",
+    "matchedStatuses": ["failed"],
+    "matchedConditions": [
+      {
+        "keyword": "message",
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "name": "Test Defects",
+    "matchedStatuses": ["broken"],
+    "matchedConditions": [
+      {
+        "keyword": "message",
+        "pattern": ".*"
+      }
+    ]
+  }
+]

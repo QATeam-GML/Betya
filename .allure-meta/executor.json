@@ -1,0 +1,7 @@
+{
+  "name": "QA Automation Run",
+  "type": "npm",
+  "url": "http://localhost",
+  "buildName": "All Tests Passed",
+  "buildOrder": "1"
+}
