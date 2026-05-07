@@ -2,95 +2,44 @@
   {
     "name": "Assertion Errors",
     "matchedStatuses": ["failed"],
-    "matchedConditions": [
-      {
-        "keyword": "message",
-        "pattern": ".*AssertionError.*"
-      }
-    ]
-  },
-  {
-    "name": "Timeouts",
-    "matchedStatuses": ["failed"],
-    "matchedConditions": [
-      {
-        "keyword": "message",
-        "pattern": ".*Timeout.*"
-      }
-    ]
+    "traceRegex": "AssertionError|expect\\("
   },
   {
     "name": "Element Not Found",
     "matchedStatuses": ["failed"],
-    "matchedConditions": [
-      {
-        "keyword": "message",
-        "pattern": ".*No element found.*|.*Unable to locate element.*"
-      }
-    ]
+    "traceRegex": "waiting for locator|locator\\.click|No node found|element not found"
+  },
+  {
+    "name": "Timeouts",
+    "matchedStatuses": ["broken"],
+    "traceRegex": "Timeout|timed out"
   },
   {
     "name": "Navigation Errors",
-    "matchedStatuses": ["failed"],
-    "matchedConditions": [
-      {
-        "keyword": "message",
-        "pattern": ".*Navigation.*|.*net::ERR_FAILED.*"
-      }
-    ]
+    "matchedStatuses": ["broken"],
+    "traceRegex": "net::ERR|Navigation failed|page.goto"
   },
   {
     "name": "Server Errors (5xx)",
     "matchedStatuses": ["failed"],
-    "matchedConditions": [
-      {
-        "keyword": "message",
-        "pattern": ".*5\\d\\d Server Error.*"
-      }
-    ]
+    "messageRegex": "500|501|502|503|504"
   },
   {
     "name": "Client Errors (4xx)",
     "matchedStatuses": ["failed"],
-    "matchedConditions": [
-      {
-        "keyword": "message",
-        "pattern": ".*4\\d\\d Client Error.*"
-      }
-    ]
+    "messageRegex": "400|401|403|404"
   },
   {
     "name": "Playwright Errors",
-    "matchedStatuses": ["failed"],
-    "matchedConditions": [
-      {
-        "keyword": "trace",
-        "pattern": ".*playwright.*"
-      }
-    ]
+    "matchedStatuses": ["broken"],
+    "traceRegex": "playwright"
   },
   {
     "name": "Broken Tests",
     "matchedStatuses": ["broken"]
   },
   {
-    "name": "Product Defects",
-    "matchedStatuses": ["failed"],
-    "matchedConditions": [
-      {
-        "keyword": "message",
-        "pattern": ".*"
-      }
-    ]
-  },
-  {
     "name": "Test Defects",
-    "matchedStatuses": ["broken"],
-    "matchedConditions": [
-      {
-        "keyword": "message",
-        "pattern": ".*"
-      }
-    ]
+    "matchedStatuses": ["failed"]
   }
 ]
