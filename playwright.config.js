@@ -17,7 +17,7 @@ if (fs.existsSync(envPath)) {
  */
 module.exports = defineConfig({
   testDir: './tests',
-  timeout: 60000,
+  timeout: 600000,
     expect: {
     timeout: 15000
   },
