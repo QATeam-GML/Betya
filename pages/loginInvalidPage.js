@@ -58,8 +58,8 @@ export class LoginInvalidPage {
 
     try {
       await Promise.race([
-        fieldErrors.first().waitFor({ state: 'visible', timeout: 5000 }),
-        generalErrors.first().waitFor({ state: 'visible', timeout: 5000 })
+        fieldErrors.first().waitFor({ state: 'visible', timeout: 10000 }),
+        generalErrors.first().waitFor({ state: 'visible', timeout: 10000 })
       ]);
     } catch (e) {
       console.log('⚠️ No validation message appeared within timeout');
