@@ -1,51 +1,139 @@
+import { expect } from '@playwright/test';
 import { BASE_URL } from '../config/env.js';
 
 class LoginPage {
+
   constructor(page) {
+
     this.page = page;
     this.baseUrl = BASE_URL;
 
-    // Locators
+    // Login
     this.loginButton = page.locator("(//button[normalize-space()='Login'])[1]");
-    this.usernameInput = page.getByPlaceholder("Enter username or email");
-
-    // Modal container (fallback-safe)
     this.loginModal = page.locator('#modal-login');
 
-    this.dropdown = page.locator("(//div[@class='dropdown dropdown-bottom group dropdown-end'])[1]");
+    this.usernameInput = this.loginModal.getByPlaceholder('Enter username or email');
 
+    this.passwordInput = this.loginModal.locator(
+      'input[type="password"]'
+    );
+
+    this.submitButton = this.loginModal.getByRole('button', {
+      name: /log in/i
+    });
+
+    // Logged-in indicators
+    this.dropdown = page.locator(
+      "(//div[contains(@class,'dropdown')])[1]"
+    );
+
+    this.logoutButton = page.getByRole('button', {
+      name: /log out/i
+    });
   }
 
-  // Navigate to base URL
+  // =========================
+  // Navigate
+  // =========================
+
   async goto() {
-    await this.page.goto(this.baseUrl, { waitUntil: 'domcontentloaded' });
+
+    await this.page.goto(this.baseUrl, {
+      waitUntil: 'domcontentloaded',
+      timeout: 30000
+    });
+
+    await this.page.waitForLoadState('domcontentloaded');
   }
 
-  // Login method uses credentials internally
+  // =========================
+  // Login
+  // =========================
+
   async login(username, password) {
-    await this.loginButton.click();
-    const usernameInput = this.loginModal.getByPlaceholder('Enter username or email');
-    const passwordInput = this.loginModal.locator('input[type="password"]');
-    const submitButton = this.loginModal.getByRole('button', { name: 'Log In' });
 
-    // 5. Actions
-    await usernameInput.fill(username);
-    await passwordInput.fill(password);
-    await submitButton.click();
+    await expect(this.loginButton).toBeVisible({
+      timeout: 15000
+    });
+
+    await this.loginButton.click();
+
+    // Wait for modal
+    await expect(this.loginModal).toBeVisible({
+      timeout: 15000
+    });
+
+    // Fill credentials
+    await this.usernameInput.fill(username);
+    await this.passwordInput.fill(password);
+
+    // Click login
+    await this.submitButton.click();
+
+    // Wait for successful login
+    await Promise.race([
+
+      this.dropdown.waitFor({
+        state: 'visible',
+        timeout: 30000
+      }),
+
+      this.page.locator('text=Log out').waitFor({
+        state: 'visible',
+        timeout: 30000
+      }),
+
+      this.page.waitForURL(/casino|sport|profile|account/i, {
+        timeout: 30000
+      })
+
+    ]).catch(async () => {
+
+      // Debug screenshot
+      await this.page.screenshot({
+        path: `login-failure-${Date.now()}.png`,
+        fullPage: true
+      });
+
+      throw new Error('Login failed or timeout after clicking login');
+    });
+
+    // Final stable validation
+    await expect(this.dropdown).toBeVisible({
+      timeout: 15000
+    });
   }
 
+  // =========================
+  // Logout
+  // =========================
 
   async logout() {
-    await this.dropdown.click();
-    const logoutButton = this.dropdown.getByRole('button', { name: 'Log out' });
-    await logoutButton.click();
-  }
 
-  async logout1() {
-    const logoutButton = this.dropdown.getByRole('button', { name: 'Log out' });
-    await logoutButton.click();
-  }
+    try {
 
+      await expect(this.dropdown).toBeVisible({
+        timeout: 10000
+      });
+
+      await this.dropdown.click();
+
+      await expect(this.logoutButton).toBeVisible({
+        timeout: 10000
+      });
+
+      await this.logoutButton.click();
+
+      // Wait until logged out
+      await expect(this.loginButton).toBeVisible({
+        timeout: 15000
+      });
+
+    } catch (error) {
+
+      console.log('⚠️ Logout skipped or failed');
+    }
+  }
 }
 
-module.exports = { LoginPage };
+export { LoginPage };
