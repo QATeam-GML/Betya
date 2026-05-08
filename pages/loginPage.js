@@ -107,33 +107,58 @@ class LoginPage {
   // =========================
   // Logout
   // =========================
+async logout() {
 
-  async logout() {
+  try {
 
-    try {
+    // Close modal if still open
+    if (await this.loginModal.isVisible().catch(() => false)) {
 
-      await expect(this.dropdown).toBeVisible({
+      const closeBtn = this.loginModal.locator(
+        'button[aria-label="Close"]'
+      );
+
+      if (await closeBtn.isVisible().catch(() => false)) {
+        await closeBtn.click();
+      }
+
+      await expect(this.loginModal).toBeHidden({
         timeout: 10000
       });
-
-      await this.dropdown.click();
-
-      await expect(this.logoutButton).toBeVisible({
-        timeout: 10000
-      });
-
-      await this.logoutButton.click();
-
-      // Wait until logged out
-      await expect(this.loginButton).toBeVisible({
-        timeout: 15000
-      });
-
-    } catch (error) {
-
-      console.log('⚠️ Logout skipped or failed');
     }
+
+    // Wait for dropdown button
+    await expect(this.dropdownButton).toBeVisible({
+      timeout: 15000
+    });
+
+    await this.dropdownButton.click();
+
+    // Logout button
+    const logoutBtn = this.page.getByRole('button', {
+      name: /log out/i
+    });
+
+    await expect(logoutBtn).toBeVisible({
+      timeout: 10000
+    });
+
+    await logoutBtn.click();
+
+    // Verify logout success
+    await expect(this.loginButton).toBeVisible({
+      timeout: 20000
+    });
+
+    console.log('🚪 Logout successful');
+
+  } catch (error) {
+
+    console.log('⚠️ Logout skipped or failed');
+
+    console.log(error.message);
   }
+}
 }
 
 export { LoginPage };
