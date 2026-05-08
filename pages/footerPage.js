@@ -18,7 +18,7 @@ class FooterPage {
             //Discord: page.locator("(//img[@alt='Discord'])[1]"),
             Telegram: page.locator("(//img[@alt='Telegram'])[1]"),
             Instagram: page.locator("(//img[@alt='Instagram'])[1]"),
-            Tiktok: page.locator("(//img[@alt='Tik Tok'])[1]"),
+            //Tiktok: page.locator("(//img[@alt='Tik Tok'])[1]"),
             Twitter: page.locator("(//img[@alt='Twitter'])[1]")
         };
 
