@@ -44,41 +44,97 @@ export class LoginInvalidPage {
     }
   }
 
-  async assertInvalidLogin() {
-    const errors = [];
+ async assertInvalidLogin() {
+  const errors = [];
 
-    const fieldErrors = this.loginModal.locator(
-      '.error, .validation-error, .input-error, [role="alert"], .help-block'
-    );
+  // More stable selectors
+  const validationLocator = this.loginModal.locator(`
+    .error,
+    .validation-error,
+    .input-error,
+    .invalid-feedback,
+    .form-error,
+    .error-message,
+    [role="alert"],
+    .help-block,
+    .text-danger
+  `);
 
-    // Removed password|username so it won’t match labels/links
-    const generalErrors = this.loginModal.locator(
-      'text=/please enter|invalid|incorrect|wrong|required|must be|not valid/i'
-    );
+  const textValidationLocator = this.loginModal.locator(
+    `text=/invalid|incorrect|required|must be|not valid|please enter|too short/i`
+  );
 
-    try {
-      await Promise.race([
-        fieldErrors.first().waitFor({ state: 'visible', timeout: 10000 }),
-        generalErrors.first().waitFor({ state: 'visible', timeout: 10000 })
-      ]);
-    } catch (e) {
-      console.log('⚠️ No validation message appeared within timeout');
-    }
+  try {
 
-    const fieldCount = await fieldErrors.count();
-    for (let i = 0; i < fieldCount; i++) {
-      const text = await fieldErrors.nth(i).innerText();
-      if (text?.trim()) errors.push(text.trim());
-    }
+    // Wait for either:
+    // 1. validation message
+    // 2. network settles
+    // 3. timeout fallback
 
-    const generalCount = await generalErrors.count();
-    for (let i = 0; i < generalCount; i++) {
-      const text = await generalErrors.nth(i).innerText();
-      if (text?.trim()) errors.push(text.trim());
-    }
+    await Promise.race([
 
-    return [...new Set(errors)];
+      validationLocator.first().waitFor({
+        state: 'visible',
+        timeout: 15000
+      }),
+
+      textValidationLocator.first().waitFor({
+        state: 'visible',
+        timeout: 15000
+      }),
+
+      this.page.waitForLoadState('networkidle')
+
+    ]);
+
+  } catch (e) {
+
+    console.log('⚠️ No validation message appeared within timeout');
+
+    // Debug screenshot
+    await this.page.screenshot({
+      path: `test-results/no-validation-${Date.now()}.png`,
+      fullPage: true
+    });
+
+    // Dump modal HTML for Jenkins debugging
+    const modalHtml = await this.loginModal.innerHTML();
+
+    console.log('===== MODAL HTML START =====');
+    console.log(modalHtml);
+    console.log('===== MODAL HTML END =====');
   }
+
+  // Small stabilization wait
+  await this.page.waitForTimeout(1000);
+
+  // Capture UI validation messages
+  const validationCount = await validationLocator.count();
+
+  for (let i = 0; i < validationCount; i++) {
+
+    const text = await validationLocator.nth(i).textContent();
+
+    if (text?.trim()) {
+      errors.push(text.trim());
+    }
+  }
+
+  // Capture text-based validation messages
+  const textCount = await textValidationLocator.count();
+
+  for (let i = 0; i < textCount; i++) {
+
+    const text = await textValidationLocator.nth(i).textContent();
+
+    if (text?.trim()) {
+      errors.push(text.trim());
+    }
+  }
+
+  return [...new Set(errors)];
+}
+
 
   async closeModal() {
     const closeButton = this.loginModal.locator(
