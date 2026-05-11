@@ -1,0 +1,3 @@
+✅ Username visible: Satish
+❌ FAIL: Verify logged-in username is displayed
+❌ STATUS: failed

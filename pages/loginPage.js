@@ -18,6 +18,7 @@ class LoginPage {
 
   // Navigate to base URL
   async goto() {
+    
     await this.page.goto(this.baseUrl, { waitUntil: 'domcontentloaded' });
   }
 

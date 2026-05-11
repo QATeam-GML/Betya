@@ -1,0 +1,2 @@
+✅ Session persisted
+✅ PASS: Login session persists after reload

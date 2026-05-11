@@ -1,0 +1,4 @@
+
+===== VALIDATION ERRORS =====
+1. Invalid password format
+============================

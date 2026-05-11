@@ -1,0 +1,2 @@
+❌ FAIL: Login and navigate to Casino page
+❌ STATUS: failed

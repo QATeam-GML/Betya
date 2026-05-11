@@ -1,0 +1,2 @@
+⏱ Login duration: 9698ms
+✅ PASS: Login performance check

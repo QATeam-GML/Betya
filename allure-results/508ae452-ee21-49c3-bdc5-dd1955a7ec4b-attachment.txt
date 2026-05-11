@@ -1,0 +1,6 @@
+
+🔹 Test Start: Email Login
+📧 Email: lokeshcbn@gmail.com
+✅ Login successful using email
+🚪 Logout successful
+✅ PASS: Valid login using email

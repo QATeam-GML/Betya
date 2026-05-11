@@ -1,0 +1,4 @@
+
+🔹 Test Start: Login session persists after reload
+✅ Session persisted
+✅ PASS: Login session persists after reload

@@ -1,0 +1,7 @@
+
+🔹 Test Start: Username Login
+👤 Username: Levelup
+🌐 Homepage loaded
+✅ Login successful
+❌ FAIL: Valid login with username and password
+❌ STATUS: failed

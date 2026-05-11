@@ -1,0 +1,6 @@
+
+🔹 Test Start: Email Login
+📧 Email: leveluptest@gmail.com
+✅ Login successful using email
+❌ FAIL: Valid login using email
+❌ STATUS: failed

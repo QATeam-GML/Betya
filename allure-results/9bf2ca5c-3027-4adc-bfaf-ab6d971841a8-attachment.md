@@ -1,0 +1,3467 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - navigation [ref=e6]:
+          - link "Betya Logo" [ref=e7] [cursor=pointer]:
+            - /url: /en/casino
+            - img "Betya Logo" [ref=e8]
+          - generic [ref=e9]:
+            - link "Casino" [ref=e10] [cursor=pointer]:
+              - /url: /en/casino
+              - img [ref=e11]
+              - generic [ref=e15]: Casino
+            - link "Sports" [ref=e16] [cursor=pointer]:
+              - /url: /en/sports
+              - img [ref=e17]
+              - generic [ref=e19]: Sports
+            - link "Promotions" [ref=e20] [cursor=pointer]:
+              - /url: /en/promotions
+              - img [ref=e21]
+              - generic [ref=e24]: Promotions
+        - generic [ref=e25]:
+          - button "Login" [ref=e26] [cursor=pointer]
+          - button "Register" [ref=e27] [cursor=pointer]
+      - generic [ref=e28]:
+        - generic [ref=e30]:
+          - main [ref=e31]:
+            - generic [ref=e32]:
+              - generic [ref=e35]:
+                - generic [ref=e37]:
+                  - figure [ref=e38]
+                  - generic [ref=e40]:
+                    - generic [ref=e41]: Casino Welcome Offer
+                    - generic [ref=e42]:
+                      - heading "$1,000 On Us" [level=2] [ref=e43]
+                      - paragraph [ref=e44]:
+                        - text: Welcome to Betya
+                        - text: 100% up to $1,000
+                    - link "Read More" [ref=e46] [cursor=pointer]:
+                      - /url: /en/promotions/welcome-1
+                - generic [ref=e48]:
+                  - figure [ref=e49]
+                  - generic [ref=e51]:
+                    - generic [ref=e52]:
+                      - heading "BETYA VIP+" [level=2] [ref=e53]
+                      - heading "Earn Betya Bucks" [level=3] [ref=e54]: Earn Betya Bucks
+                      - heading "& Exclusive Rewards" [level=3] [ref=e55]
+                    - link "More Info" [ref=e57] [cursor=pointer]:
+                      - /url: /en/loyalty
+                - generic [ref=e59]:
+                  - figure [ref=e60]
+                  - generic [ref=e62]:
+                    - generic [ref=e64]: Races
+                    - generic [ref=e65]:
+                      - heading "$10,000 IN PRIZES" [level=2] [ref=e66]
+                      - paragraph [ref=e67]: Every week!
+                    - link "Read More" [ref=e69] [cursor=pointer]:
+                      - /url: /en/promotions/betya-races
+                - generic [ref=e71]:
+                  - figure [ref=e72]
+                  - generic [ref=e74]:
+                    - generic [ref=e76]: Network Tournament
+                    - generic [ref=e77]:
+                      - heading "€25,000 PRIZE POOL" [level=2] [ref=e78]
+                      - paragraph [ref=e79]:
+                        - text: Every Sunday
+                        - text: Until 31 May 2026
+                    - link "Read More" [ref=e81] [cursor=pointer]:
+                      - /url: /en/promotions/big-sunday-blast-26
+                - generic [ref=e83]:
+                  - figure [ref=e84]
+                  - generic [ref=e86]:
+                    - generic [ref=e87]: Network Tournament
+                    - generic [ref=e88]:
+                      - heading "€125,000 PRIZE POOL" [level=2] [ref=e89]
+                      - paragraph [ref=e90]: 29 Jan - 19 Sept
+                    - link "Read More" [ref=e92] [cursor=pointer]:
+                      - /url: /en/promotions/platipus-125000-prize-pool
+                - generic [ref=e94]:
+                  - figure [ref=e95]
+                  - generic [ref=e97]:
+                    - generic [ref=e99]: Network Tournament
+                    - generic [ref=e100]:
+                      - heading "CASH TORNADO" [level=2] [ref=e101]
+                      - heading "€300,000 Prize Pool" [level=3] [ref=e102]
+                      - heading "05 - 30 May" [level=3] [ref=e103]
+                    - link "Read More" [ref=e105] [cursor=pointer]:
+                      - /url: /en/promotions/cash-tornado
+                - generic [ref=e107]:
+                  - figure [ref=e108]
+                  - generic [ref=e110]:
+                    - generic [ref=e112]: Network Promotion
+                    - generic [ref=e113]:
+                      - heading "BLOOMING CASH" [level=2] [ref=e114]
+                      - heading "€70,000 Prize Pool" [level=3] [ref=e115]
+                      - paragraph [ref=e116]: 01 - 31 May
+                    - link "Read More" [ref=e118] [cursor=pointer]:
+                      - /url: /en/promotions/blooming-cash
+              - generic [ref=e124]:
+                - button "All Top 50 New For You Betya's Best Hot Originals Video Slots Live Dealer Classic Slots Blackjack Roulette Table Games Video Poker Jackpot Other Games" [ref=e126]:
+                  - generic [ref=e127]:
+                    - button "All" [ref=e128] [cursor=pointer]
+                    - button "Top 50" [ref=e129] [cursor=pointer]
+                    - button "New" [ref=e130] [cursor=pointer]
+                    - button "For You" [ref=e131] [cursor=pointer]
+                    - button "Betya's Best" [ref=e132] [cursor=pointer]
+                    - button "Hot" [ref=e133] [cursor=pointer]
+                    - button "Originals" [ref=e134] [cursor=pointer]
+                    - button "Video Slots" [ref=e135] [cursor=pointer]
+                    - button "Live Dealer" [ref=e136] [cursor=pointer]
+                    - button "Classic Slots" [ref=e137] [cursor=pointer]
+                    - button "Blackjack" [ref=e138] [cursor=pointer]
+                    - button "Roulette" [ref=e139] [cursor=pointer]
+                    - button "Table Games" [ref=e140] [cursor=pointer]
+                    - button "Video Poker" [ref=e141] [cursor=pointer]
+                    - button "Jackpot" [ref=e142] [cursor=pointer]
+                    - button "Other Games" [ref=e143] [cursor=pointer]
+                - generic [ref=e144]:
+                  - generic [ref=e146]:
+                    - searchbox "Search…" [ref=e147]
+                    - img [ref=e149]
+                  - button "Provider" [ref=e153] [cursor=pointer]:
+                    - text: Provider
+                    - img [ref=e154]
+              - generic [ref=e156]:
+                - generic [ref=e157]:
+                  - heading "Top 50" [level=2] [ref=e158]
+                  - generic [ref=e159]:
+                    - generic [ref=e160]:
+                      - button "Previous" [disabled]:
+                        - img
+                      - button "Next" [ref=e161] [cursor=pointer]:
+                        - img [ref=e162]
+                    - link "View All" [ref=e164] [cursor=pointer]:
+                      - /url: /en/casino?category=top-50
+                - generic [ref=e167]:
+                  - generic [ref=e169] [cursor=pointer]:
+                    - img "15 Dragon Pearls" [ref=e170]
+                    - button "Add to favorites" [ref=e173]:
+                      - img [ref=e174]
+                    - link [ref=e177]:
+                      - /url: /en/casino/game/bng15_dragon_pearls
+                  - generic [ref=e179] [cursor=pointer]:
+                    - 'img "Thunder Coins XXL: Hold and Win" [ref=e180]'
+                    - button "Add to favorites" [ref=e183]:
+                      - img [ref=e184]
+                    - link [ref=e187]:
+                      - /url: /en/casino/game/rg_playsonpls_thunder_coins_xxl_hold_and_win
+                  - generic [ref=e189] [cursor=pointer]:
+                    - img "Sun of Egypt 5" [ref=e190]
+                    - button "Add to favorites" [ref=e193]:
+                      - img [ref=e194]
+                    - link [ref=e197]:
+                      - /url: /en/casino/game/bngsun_of_egypt_5
+                  - generic [ref=e199] [cursor=pointer]:
+                    - 'img "Dragon Pearls: hold and win" [ref=e200]'
+                    - button "Add to favorites" [ref=e203]:
+                      - img [ref=e204]
+                    - link [ref=e207]:
+                      - /url: /en/casino/game/bngdragon_pearls
+                  - generic [ref=e209] [cursor=pointer]:
+                    - 'img "Coin Strike: Hold and Win" [ref=e210]'
+                    - button "Add to favorites" [ref=e213]:
+                      - img [ref=e214]
+                    - link [ref=e217]:
+                      - /url: /en/casino/game/rg_playsonpls_coin_strike_hold_and_win
+                  - generic [ref=e219] [cursor=pointer]:
+                    - img "Sun of Egypt 3" [ref=e220]
+                    - button "Add to favorites" [ref=e223]:
+                      - img [ref=e224]
+                    - link [ref=e227]:
+                      - /url: /en/casino/game/bngsun_of_egypt_3
+                  - generic [ref=e229] [cursor=pointer]:
+                    - img "Aztec Magic Deluxe" [ref=e230]
+                    - button "Add to favorites" [ref=e233]:
+                      - img [ref=e234]
+                    - link [ref=e237]:
+                      - /url: /en/casino/game/ss_bgaming_softswiss:AztecMagicDeluxe
+                  - generic [ref=e239] [cursor=pointer]:
+                    - img "Piggy Bank Chase Hold and Win" [ref=e240]
+                    - button "Add to favorites" [ref=e243]:
+                      - img [ref=e244]
+                    - link [ref=e247]:
+                      - /url: /en/casino/game/fd_piggybankchase-hnw
+                  - generic [ref=e249] [cursor=pointer]:
+                    - img "Crack More Piggy Banks" [ref=e250]
+                    - button "Add to favorites" [ref=e253]:
+                      - img [ref=e254]
+                    - link [ref=e257]:
+                      - /url: /en/casino/game/pen_103132
+                  - generic [ref=e259] [cursor=pointer]:
+                    - 'img "Mighty Wild™: Panther Grand Diamond Edition" [ref=e260]'
+                    - button "Add to favorites" [ref=e263]:
+                      - img [ref=e264]
+                    - link [ref=e267]:
+                      - /url: /en/casino/game/reevo_waz64040
+                  - generic [ref=e269] [cursor=pointer]:
+                    - img "Take the Vault™ Hold & Win" [ref=e270]
+                    - button "Add to favorites" [ref=e273]:
+                      - img [ref=e274]
+                    - link [ref=e277]:
+                      - /url: /en/casino/game/bsg924
+                  - generic [ref=e279] [cursor=pointer]:
+                    - img "Bonsai Gold Hold & Win" [ref=e280]
+                    - generic [ref=e283]:
+                      - generic [ref=e284]: Hot
+                      - button "Add to favorites" [ref=e285]:
+                        - img [ref=e286]
+                    - link [ref=e289]:
+                      - /url: /en/casino/game/n2_101054
+                  - generic [ref=e291] [cursor=pointer]:
+                    - 'img "Buffalo Power 2: Hold and Win" [ref=e292]'
+                    - generic [ref=e295]:
+                      - generic [ref=e296]: Hot
+                      - button "Add to favorites" [ref=e297]:
+                        - img [ref=e298]
+                    - link [ref=e301]:
+                      - /url: /en/casino/game/rg_playsonpls_buffalo_power_2_hold_and_win
+                  - generic [ref=e303] [cursor=pointer]:
+                    - img "Sun of Egypt 2" [ref=e304]
+                    - button "Add to favorites" [ref=e308]:
+                      - img [ref=e309]
+                    - link [ref=e312]:
+                      - /url: /en/casino/game/bngsun_of_egypt_2
+                  - generic [ref=e314] [cursor=pointer]:
+                    - 'img "Royal Joker: Hold and Win" [ref=e315]'
+                    - button "Add to favorites" [ref=e319]:
+                      - img [ref=e320]
+                    - link [ref=e323]:
+                      - /url: /en/casino/game/rg_playsonpls_royal_joker_hold_and_win
+                  - generic [ref=e325] [cursor=pointer]:
+                    - 'img "Coin Strike 2: Hold and Win" [ref=e326]'
+                    - button "Add to favorites" [ref=e330]:
+                      - img [ref=e331]
+                    - link [ref=e334]:
+                      - /url: /en/casino/game/rg_playsonpls_coin_strike_2_hold_and_win
+                  - generic [ref=e336] [cursor=pointer]:
+                    - 'img "Super Cash Boost: Hold & Win" [ref=e337]'
+                    - button "Add to favorites" [ref=e341]:
+                      - img [ref=e342]
+                    - link [ref=e345]:
+                      - /url: /en/casino/game/pen_103094
+                  - generic [ref=e347] [cursor=pointer]:
+                    - img "Black Wolf 2" [ref=e348]
+                    - button "Add to favorites" [ref=e352]:
+                      - img [ref=e353]
+                    - link [ref=e356]:
+                      - /url: /en/casino/game/bngblack_wolf_2
+                  - generic [ref=e358] [cursor=pointer]:
+                    - 'img "Turbo Diamonds: Hold & Win" [ref=e359]'
+                    - button "Add to favorites" [ref=e363]:
+                      - img [ref=e364]
+                    - link [ref=e367]:
+                      - /url: /en/casino/game/pen_103122
+                  - generic [ref=e369] [cursor=pointer]:
+                    - img "Party Fiesta 7s" [ref=e370]
+                    - button "Add to favorites" [ref=e373]:
+                      - img [ref=e374]
+                    - link [ref=e377]:
+                      - /url: /en/casino/game/fd_partyfiesta7s
+                  - generic [ref=e379] [cursor=pointer]:
+                    - 'img "3 Rail Express: Hold & Win" [ref=e380]'
+                    - button "Add to favorites" [ref=e384]:
+                      - img [ref=e385]
+                    - link [ref=e388]:
+                      - /url: /en/casino/game/pen_103118
+                  - generic [ref=e390] [cursor=pointer]:
+                    - img "Sizzling Eggs™ Grand Gold Edition" [ref=e391]
+                    - button "Add to favorites" [ref=e394]:
+                      - img [ref=e395]
+                    - link [ref=e398]:
+                      - /url: /en/casino/game/reevo_waz67860
+                  - generic [ref=e400] [cursor=pointer]:
+                    - img "Lion Fury - Hold & Win" [ref=e401]
+                    - button "Add to favorites" [ref=e404]:
+                      - img [ref=e405]
+                    - link [ref=e408]:
+                      - /url: /en/casino/game/rn_RN-LionFuryHoldWin
+                  - generic [ref=e410] [cursor=pointer]:
+                    - img "Plentiful Treasure" [ref=e411]
+                    - button "Add to favorites" [ref=e415]:
+                      - img [ref=e416]
+                    - link [ref=e419]:
+                      - /url: /en/casino/game/spin_1179881
+                  - generic [ref=e421] [cursor=pointer]:
+                    - img "Pearl Diver" [ref=e422]
+                    - button "Add to favorites" [ref=e426]:
+                      - img [ref=e427]
+                    - link [ref=e430]:
+                      - /url: /en/casino/game/bngpearl_diver
+              - generic [ref=e431]:
+                - generic [ref=e432]:
+                  - heading "New" [level=2] [ref=e433]
+                  - generic [ref=e434]:
+                    - generic [ref=e435]:
+                      - button "Previous" [disabled]:
+                        - img
+                      - button "Next" [ref=e436] [cursor=pointer]:
+                        - img [ref=e437]
+                    - link "View All" [ref=e439] [cursor=pointer]:
+                      - /url: /en/casino?category=new
+                - generic [ref=e442]:
+                  - generic [ref=e444] [cursor=pointer]:
+                    - img "The Neighbor Wars" [ref=e445]
+                    - generic [ref=e447]:
+                      - generic [ref=e448]: New
+                      - button "Add to favorites" [ref=e449]:
+                        - img [ref=e450]
+                    - link [ref=e453]:
+                      - /url: /en/casino/game/bsg1009
+                  - generic [ref=e455] [cursor=pointer]:
+                    - 'img "Thunderline Express: Hold & Win" [ref=e456]'
+                    - generic [ref=e458]:
+                      - generic [ref=e459]: New
+                      - button "Add to favorites" [ref=e460]:
+                        - img [ref=e461]
+                    - link [ref=e464]:
+                      - /url: /en/casino/game/pen_103157
+                  - generic [ref=e466] [cursor=pointer]:
+                    - img "The Jade Emperor Hold & Win" [ref=e467]
+                    - generic [ref=e469]:
+                      - generic [ref=e470]: New
+                      - button "Add to favorites" [ref=e471]:
+                        - img [ref=e472]
+                    - link [ref=e475]:
+                      - /url: /en/casino/game/n2_101075
+                  - generic [ref=e477] [cursor=pointer]:
+                    - img "Royal Majesty 7s Hold and Win" [ref=e478]
+                    - generic [ref=e480]:
+                      - generic [ref=e481]: New
+                      - button "Add to favorites" [ref=e482]:
+                        - img [ref=e483]
+                    - link [ref=e486]:
+                      - /url: /en/casino/game/fd_royalmajesty7s-hnw
+                  - generic [ref=e488] [cursor=pointer]:
+                    - img "3 Fiery Peppers Hold and Win" [ref=e489]
+                    - generic [ref=e491]:
+                      - generic [ref=e492]: New
+                      - button "Add to favorites" [ref=e493]:
+                        - img [ref=e494]
+                    - link [ref=e497]:
+                      - /url: /en/casino/game/fd_threefierypeppers-hnw
+                  - generic [ref=e499] [cursor=pointer]:
+                    - img "Mystic Multipliers" [ref=e500]
+                    - generic [ref=e502]:
+                      - generic [ref=e503]: New
+                      - button "Add to favorites" [ref=e504]:
+                        - img [ref=e505]
+                    - link [ref=e508]:
+                      - /url: /en/casino/game/relaxmysticmultipliers
+                  - generic [ref=e510] [cursor=pointer]:
+                    - img "Flamingo Fever" [ref=e511]
+                    - generic [ref=e513]:
+                      - generic [ref=e514]: New
+                      - button "Add to favorites" [ref=e515]:
+                        - img [ref=e516]
+                    - link [ref=e519]:
+                      - /url: /en/casino/game/spnRetro_FlamingoFever
+                  - generic [ref=e521] [cursor=pointer]:
+                    - 'img "Coin Strike XXL: Hold and Win" [ref=e522]'
+                    - generic [ref=e524]:
+                      - generic [ref=e525]: New
+                      - button "Add to favorites" [ref=e526]:
+                        - img [ref=e527]
+                    - link [ref=e530]:
+                      - /url: /en/casino/game/rg_playsonpls_coin_strike_xxl_hold_and_win
+                  - generic [ref=e532] [cursor=pointer]:
+                    - img "Squeak" [ref=e533]
+                    - generic [ref=e535]:
+                      - generic [ref=e536]: New
+                      - button "Add to favorites" [ref=e537]:
+                        - img [ref=e538]
+                    - link [ref=e541]:
+                      - /url: /en/casino/game/reevo_gv70904
+                  - generic [ref=e543] [cursor=pointer]:
+                    - img "Alice in WINderland" [ref=e544]
+                    - generic [ref=e546]:
+                      - generic [ref=e547]: New
+                      - button "Add to favorites" [ref=e548]:
+                        - img [ref=e549]
+                    - link [ref=e552]:
+                      - /url: /en/casino/game/relaxaliceinwinderland
+                  - generic [ref=e554] [cursor=pointer]:
+                    - img "Pride of the Wild + Slot Bingo" [ref=e555]
+                    - generic [ref=e557]:
+                      - generic [ref=e558]: New
+                      - button "Add to favorites" [ref=e559]:
+                        - img [ref=e560]
+                    - link [ref=e563]:
+                      - /url: /en/casino/game/rp_WL_PrideOfTheWild_SlotBingo95_Embedded
+                  - generic [ref=e565] [cursor=pointer]:
+                    - img "Banana Twist" [ref=e566]
+                    - generic [ref=e569]:
+                      - generic [ref=e570]: New
+                      - button "Add to favorites" [ref=e571]:
+                        - img [ref=e572]
+                    - link [ref=e575]:
+                      - /url: /en/casino/game/ss_yggdrasil_yggdrasil:BananaTwist
+                  - generic [ref=e577] [cursor=pointer]:
+                    - img "1 Reel - Cupid's Charm" [ref=e578]
+                    - generic [ref=e581]:
+                      - generic [ref=e582]: New
+                      - button "Add to favorites" [ref=e583]:
+                        - img [ref=e584]
+                    - link [ref=e587]:
+                      - /url: /en/casino/game/spnTower_1ReelCupidsCharm
+                  - generic [ref=e589] [cursor=pointer]:
+                    - img "Dollars of the Deep + Slot Bingo" [ref=e590]
+                    - generic [ref=e593]:
+                      - generic [ref=e594]: New
+                      - button "Add to favorites" [ref=e595]:
+                        - img [ref=e596]
+                    - link [ref=e599]:
+                      - /url: /en/casino/game/rp_WL_DollarsOfTheDeep_SlotBingo95_Embedded
+                  - generic [ref=e601] [cursor=pointer]:
+                    - img "Berserkin' Buffalo Power Hit" [ref=e602]
+                    - generic [ref=e605]:
+                      - generic [ref=e606]: New
+                      - button "Add to favorites" [ref=e607]:
+                        - img [ref=e608]
+                    - link [ref=e611]:
+                      - /url: /en/casino/game/reevo_boom79396
+                  - generic [ref=e613] [cursor=pointer]:
+                    - img "Mr. Oinkster's Power Hit" [ref=e614]
+                    - generic [ref=e617]:
+                      - generic [ref=e618]: New
+                      - button "Add to favorites" [ref=e619]:
+                        - img [ref=e620]
+                    - link [ref=e623]:
+                      - /url: /en/casino/game/reevo_boom79394
+                  - generic [ref=e625] [cursor=pointer]:
+                    - img "Preach TV" [ref=e626]
+                    - generic [ref=e629]:
+                      - generic [ref=e630]: New
+                      - button "Add to favorites" [ref=e631]:
+                        - img [ref=e632]
+                    - link [ref=e635]:
+                      - /url: /en/casino/game/shady_preachtv
+                  - generic [ref=e637] [cursor=pointer]:
+                    - img "Queen Of Giza" [ref=e638]
+                    - generic [ref=e641]:
+                      - generic [ref=e642]: New
+                      - button "Add to favorites" [ref=e643]:
+                        - img [ref=e644]
+                    - link [ref=e647]:
+                      - /url: /en/casino/game/spnSlotMachine_QueenOfGiza
+                  - generic [ref=e649] [cursor=pointer]:
+                    - img "Golden Avalon Hold and Win" [ref=e650]
+                    - generic [ref=e653]:
+                      - generic [ref=e654]: New
+                      - button "Add to favorites" [ref=e655]:
+                        - img [ref=e656]
+                    - link [ref=e659]:
+                      - /url: /en/casino/game/ss_bgaming_softswiss:GoldenAvalonHoldAndWin
+                  - generic [ref=e661] [cursor=pointer]:
+                    - img "Battle Loot" [ref=e662]
+                    - generic [ref=e665]:
+                      - generic [ref=e666]: New
+                      - button "Add to favorites" [ref=e667]:
+                        - img [ref=e668]
+                    - link [ref=e671]:
+                      - /url: /en/casino/game/mascotbattle_loot_hnw
+                  - generic [ref=e673] [cursor=pointer]:
+                    - img "Coin Spark" [ref=e674]
+                    - generic [ref=e677]:
+                      - generic [ref=e678]: New
+                      - button "Add to favorites" [ref=e679]:
+                        - img [ref=e680]
+                    - link [ref=e683]:
+                      - /url: /en/casino/game/spnSlotMachine_CoinSpark
+                  - generic [ref=e685] [cursor=pointer]:
+                    - img "Tikilicious" [ref=e686]
+                    - generic [ref=e689]:
+                      - generic [ref=e690]: New
+                      - button "Add to favorites" [ref=e691]:
+                        - img [ref=e692]
+                    - link [ref=e695]:
+                      - /url: /en/casino/game/reevo_lk77036
+                  - generic [ref=e697] [cursor=pointer]:
+                    - img "Mighty Matador" [ref=e698]
+                    - generic [ref=e701]:
+                      - generic [ref=e702]: New
+                      - button "Add to favorites" [ref=e703]:
+                        - img [ref=e704]
+                    - link [ref=e707]:
+                      - /url: /en/casino/game/rp_WL_MightyMatador_Embedded
+                  - generic [ref=e709] [cursor=pointer]:
+                    - img "Druid’s Drop" [ref=e710]
+                    - generic [ref=e713]:
+                      - generic [ref=e714]: New
+                      - button "Add to favorites" [ref=e715]:
+                        - img [ref=e716]
+                    - link [ref=e719]:
+                      - /url: /en/casino/game/ss_yggdrasil_yggdrasil:DruidsDrop
+                  - generic [ref=e721] [cursor=pointer]:
+                    - img "Emperor Dragon" [ref=e722]
+                    - generic [ref=e725]:
+                      - generic [ref=e726]: New
+                      - button "Add to favorites" [ref=e727]:
+                        - img [ref=e728]
+                    - link [ref=e731]:
+                      - /url: /en/casino/game/rp_WL_EmperorDragon_Embedded
+              - generic [ref=e736]:
+                - generic [ref=e739]:
+                  - generic [ref=e740]:
+                    - figure [ref=e741]
+                    - generic [ref=e742]:
+                      - generic [ref=e743]: Network Promotion
+                      - generic [ref=e744]:
+                        - heading "€125,000 PRIZE POOL" [level=2] [ref=e745]
+                        - paragraph [ref=e746]: Platipus’ Network Tournament
+                      - link "Read More" [ref=e748] [cursor=pointer]:
+                        - /url: /en/promotions/platipus-125000-prize-pool
+                  - generic [ref=e749]:
+                    - generic [ref=e751]: 29 Jan – 19 Sept 2026
+                    - paragraph [ref=e752]
+                - generic [ref=e755]:
+                  - generic [ref=e756]:
+                    - figure [ref=e757]
+                    - generic [ref=e758]:
+                      - generic [ref=e759]: $10,000 Prize Pool
+                      - generic [ref=e760]:
+                        - heading "$10,000 PRIZE POOL" [level=2] [ref=e761]
+                        - paragraph [ref=e762]: Betya Races
+                      - link "Read More" [ref=e764] [cursor=pointer]:
+                        - /url: /en/promotions/betya-races
+                  - generic [ref=e765]:
+                    - generic [ref=e767]: Weekly
+                    - paragraph [ref=e768]
+                - generic [ref=e771]:
+                  - generic [ref=e772]:
+                    - figure [ref=e773]
+                    - generic [ref=e774]:
+                      - generic [ref=e775]: Network Tournament
+                      - generic [ref=e776]:
+                        - heading "€25,000 WEEKLY" [level=2] [ref=e777]
+                        - paragraph [ref=e778]: Big Sunday Blast
+                      - link "Read More" [ref=e780] [cursor=pointer]:
+                        - /url: /en/promotions/big-sunday-blast-26
+                  - generic [ref=e781]:
+                    - generic [ref=e783]: 07 Dec - 31 May
+                    - paragraph [ref=e784]
+              - generic [ref=e785]:
+                - generic [ref=e786]:
+                  - heading "Providers" [level=2] [ref=e787]
+                  - generic [ref=e789]:
+                    - button "Previous" [disabled]:
+                      - img
+                    - button "Next" [ref=e790] [cursor=pointer]:
+                      - img [ref=e791]
+                - generic [ref=e796]:
+                  - link "Booongo" [ref=e798] [cursor=pointer]:
+                    - /url: /en/casino?providers=booongo
+                    - img "Booongo" [ref=e799]
+                  - link "Playson" [ref=e801] [cursor=pointer]:
+                    - /url: /en/casino?providers=rg_playson
+                    - img "Playson" [ref=e802]
+                  - link "The Originals" [ref=e804] [cursor=pointer]:
+                    - /url: /en/casino?providers=theoriginals
+                    - img "The Originals" [ref=e805]
+                  - link "Penguin King" [ref=e807] [cursor=pointer]:
+                    - /url: /en/casino?providers=n2_penguinking
+                    - img "Penguin King" [ref=e808]
+                  - link "Betsoft" [ref=e810] [cursor=pointer]:
+                    - /url: /en/casino?providers=betsoft
+                    - img "Betsoft" [ref=e811]
+                  - link "BGaming" [ref=e813] [cursor=pointer]:
+                    - /url: /en/casino?providers=ss_bgaming
+                    - img "BGaming" [ref=e814]
+                  - link "VoltEnt" [ref=e816] [cursor=pointer]:
+                    - /url: /en/casino?providers=reevowazdan
+                    - img "VoltEnt" [ref=e817]
+                  - link "FlatDog" [ref=e819] [cursor=pointer]:
+                    - /url: /en/casino?providers=kalamba
+                    - img "FlatDog" [ref=e820]
+                  - link "Evolution" [ref=e822] [cursor=pointer]:
+                    - /url: /en/casino?providers=gh_evo
+                    - img "Evolution" [ref=e823]
+                  - link "N2" [ref=e825] [cursor=pointer]:
+                    - /url: /en/casino?providers=n2
+                    - img "N2" [ref=e826]
+                  - link "Quickspin" [ref=e828] [cursor=pointer]:
+                    - /url: /en/casino?providers=quickspin
+                    - img "Quickspin"
+                  - link "X Studios" [ref=e830] [cursor=pointer]:
+                    - /url: /en/casino?providers=rg_fugaso
+                    - img "X Studios"
+                  - link "Booming" [ref=e832] [cursor=pointer]:
+                    - /url: /en/casino?providers=reevobooming
+                    - img "Booming"
+                  - link "SpinLogic" [ref=e834] [cursor=pointer]:
+                    - /url: /en/casino?providers=spinlogic
+                    - img "SpinLogic"
+                  - link "Ready Play" [ref=e836] [cursor=pointer]:
+                    - /url: /en/casino?providers=readyplay
+                    - img "Ready Play"
+                  - link "InOut" [ref=e838] [cursor=pointer]:
+                    - /url: /en/casino?providers=rg_inout
+                    - img "InOut"
+                  - link "1Spin4Win" [ref=e840] [cursor=pointer]:
+                    - /url: /en/casino?providers=ss_1spin4win
+                    - img "1Spin4Win"
+                  - link "Yggdrasil" [ref=e842] [cursor=pointer]:
+                    - /url: /en/casino?providers=ss_yggdrasil
+                    - img "Yggdrasil"
+                  - link "Mascot" [ref=e844] [cursor=pointer]:
+                    - /url: /en/casino?providers=mascot
+                    - img "Mascot"
+                  - link "Qora" [ref=e846] [cursor=pointer]:
+                    - /url: /en/casino?providers=qora
+                    - img "Qora"
+                  - link "Platipus" [ref=e848] [cursor=pointer]:
+                    - /url: /en/casino?providers=platipus
+                    - img "Platipus"
+                  - link "Swintt" [ref=e850] [cursor=pointer]:
+                    - /url: /en/casino?providers=swintt
+                    - img "Swintt"
+                  - link "Reel Noise" [ref=e852] [cursor=pointer]:
+                    - /url: /en/casino?providers=reelnoise
+                    - img "Reel Noise"
+                  - link "G.Games" [ref=e854] [cursor=pointer]:
+                    - /url: /en/casino?providers=reevogamevy
+                    - img "G.Games"
+                  - link "Tom Horn" [ref=e856] [cursor=pointer]:
+                    - /url: /en/casino?providers=reevotomhorn
+                    - img "Tom Horn"
+                  - link "Vivo" [ref=e858] [cursor=pointer]:
+                    - /url: /en/casino?providers=vivo
+                    - img "Vivo"
+                  - link "Shady Lady" [ref=e860] [cursor=pointer]:
+                    - /url: /en/casino?providers=shadylady
+                    - img "Shady Lady"
+                  - link "Reevo" [ref=e862] [cursor=pointer]:
+                    - /url: /en/casino?providers=reevolucky
+                    - img "Reevo"
+                  - link "Spribe" [ref=e864] [cursor=pointer]:
+                    - /url: /en/casino?providers=ss_spribe
+                    - img "Spribe"
+                  - link "Relax" [ref=e866] [cursor=pointer]:
+                    - /url: /en/casino?providers=relax
+                    - img "Relax"
+                  - link "Spinomenal" [ref=e868] [cursor=pointer]:
+                    - /url: /en/casino?providers=spinomenal
+                    - img "Spinomenal"
+                  - link "AvatarUX" [ref=e870] [cursor=pointer]:
+                    - /url: /en/casino?providers=n2_avatarux
+                    - img "AvatarUX"
+                  - link "Red Rake" [ref=e872] [cursor=pointer]:
+                    - /url: /en/casino?providers=reevoredrake
+                    - img "Red Rake"
+                  - link "Habanero" [ref=e874] [cursor=pointer]:
+                    - /url: /en/casino?providers=habanero
+                    - img "Habanero"
+              - generic [ref=e875]:
+                - generic [ref=e876]:
+                  - heading "For You" [level=2] [ref=e877]
+                  - generic [ref=e879]:
+                    - button "Previous" [disabled]:
+                      - img
+                    - button "Next" [ref=e880] [cursor=pointer]:
+                      - img [ref=e881]
+                - generic [ref=e885]:
+                  - generic [ref=e887] [cursor=pointer]:
+                    - 'img "Rockin''Joker: Hold and Win" [ref=e888]'
+                    - generic [ref=e890]:
+                      - generic [ref=e891]: Hot
+                      - button "Add to favorites" [ref=e892]:
+                        - img [ref=e893]
+                    - link [ref=e896]:
+                      - /url: /en/casino/game/rg_playsonpls_rockin_joker_hold_and_win
+                  - generic [ref=e898] [cursor=pointer]:
+                    - img "Feargal's Treasure 2" [ref=e899]
+                    - button "Add to favorites" [ref=e902]:
+                      - img [ref=e903]
+                    - link [ref=e906]:
+                      - /url: /en/casino/game/fd_feargalstreasure2
+                  - generic [ref=e908] [cursor=pointer]:
+                    - img "Buffalo Blox Gigablox" [ref=e909]
+                    - generic [ref=e911]:
+                      - generic [ref=e912]: Hot
+                      - button "Add to favorites" [ref=e913]:
+                        - img [ref=e914]
+                    - link [ref=e917]:
+                      - /url: /en/casino/game/ss_yggdrasil_yggdrasil:BuffaloBloxGigablox
+                  - generic [ref=e919] [cursor=pointer]:
+                    - img "3 Fiery Peppers Hold and Win" [ref=e920]
+                    - generic [ref=e922]:
+                      - generic [ref=e923]: New
+                      - button "Add to favorites" [ref=e924]:
+                        - img [ref=e925]
+                    - link [ref=e928]:
+                      - /url: /en/casino/game/fd_threefierypeppers-hnw
+                  - generic [ref=e930] [cursor=pointer]:
+                    - img "Mystic Multipliers" [ref=e931]
+                    - generic [ref=e933]:
+                      - generic [ref=e934]: New
+                      - button "Add to favorites" [ref=e935]:
+                        - img [ref=e936]
+                    - link [ref=e939]:
+                      - /url: /en/casino/game/relaxmysticmultipliers
+                  - generic [ref=e941] [cursor=pointer]:
+                    - img "A Hopping Kiss" [ref=e942]
+                    - generic [ref=e944]:
+                      - generic [ref=e945]: Hot
+                      - button "Add to favorites" [ref=e946]:
+                        - img [ref=e947]
+                    - link [ref=e950]:
+                      - /url: /en/casino/game/swintt_AHoppingKiss
+                  - generic [ref=e952] [cursor=pointer]:
+                    - img "Lady Fortune" [ref=e953]
+                    - generic [ref=e955]:
+                      - generic [ref=e956]: Hot
+                      - button "Add to favorites" [ref=e957]:
+                        - img [ref=e958]
+                    - link [ref=e961]:
+                      - /url: /en/casino/game/bnglady_fortune
+                  - generic [ref=e963] [cursor=pointer]:
+                    - img "Caesar's Victory" [ref=e964]
+                    - generic [ref=e966]:
+                      - generic [ref=e967]: Hot
+                      - button "Add to favorites" [ref=e968]:
+                        - img [ref=e969]
+                    - link [ref=e972]:
+                      - /url: /en/casino/game/qora_1485
+                  - generic [ref=e974] [cursor=pointer]:
+                    - img "Flamingo Fever" [ref=e975]
+                    - generic [ref=e977]:
+                      - generic [ref=e978]: New
+                      - button "Add to favorites" [ref=e979]:
+                        - img [ref=e980]
+                    - link [ref=e983]:
+                      - /url: /en/casino/game/spnRetro_FlamingoFever
+                  - generic [ref=e985] [cursor=pointer]:
+                    - 'img "Coin Strike XXL: Hold and Win" [ref=e986]'
+                    - generic [ref=e988]:
+                      - generic [ref=e989]: New
+                      - button "Add to favorites" [ref=e990]:
+                        - img [ref=e991]
+                    - link [ref=e994]:
+                      - /url: /en/casino/game/rg_playsonpls_coin_strike_xxl_hold_and_win
+                  - generic [ref=e996] [cursor=pointer]:
+                    - img "Squeak" [ref=e997]
+                    - generic [ref=e999]:
+                      - generic [ref=e1000]: New
+                      - button "Add to favorites" [ref=e1001]:
+                        - img [ref=e1002]
+                    - link [ref=e1005]:
+                      - /url: /en/casino/game/reevo_gv70904
+                  - generic [ref=e1007] [cursor=pointer]:
+                    - img "Alice in WINderland" [ref=e1008]
+                    - generic [ref=e1010]:
+                      - generic [ref=e1011]: New
+                      - button "Add to favorites" [ref=e1012]:
+                        - img [ref=e1013]
+                    - link [ref=e1016]:
+                      - /url: /en/casino/game/relaxaliceinwinderland
+                  - generic [ref=e1018] [cursor=pointer]:
+                    - img "Buffalo's Wealth Win Spins" [ref=e1019]
+                    - generic [ref=e1021]:
+                      - generic [ref=e1022]: Hot
+                      - button "Add to favorites" [ref=e1023]:
+                        - img [ref=e1024]
+                    - link [ref=e1027]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:BuffalosWealthWinSpins
+                  - generic [ref=e1029] [cursor=pointer]:
+                    - img "243 Clover Fruits" [ref=e1030]
+                    - button "Add to favorites" [ref=e1034]:
+                      - img [ref=e1035]
+                    - link [ref=e1038]:
+                      - /url: /en/casino/game/reevo_th74112
+                  - generic [ref=e1040] [cursor=pointer]:
+                    - img "Pride of the Wild + Slot Bingo" [ref=e1041]
+                    - generic [ref=e1043]:
+                      - generic [ref=e1044]: New
+                      - button "Add to favorites" [ref=e1045]:
+                        - img [ref=e1046]
+                    - link [ref=e1049]:
+                      - /url: /en/casino/game/rp_WL_PrideOfTheWild_SlotBingo95_Embedded
+                  - generic [ref=e1051] [cursor=pointer]:
+                    - img "Big Atlantis Frenzy" [ref=e1052]
+                    - generic [ref=e1054]:
+                      - generic [ref=e1055]: Hot
+                      - button "Add to favorites" [ref=e1056]:
+                        - img [ref=e1057]
+                    - link [ref=e1060]:
+                      - /url: /en/casino/game/ss_bgaming_softswiss:BigAtlantisFrenzy
+                  - generic [ref=e1062] [cursor=pointer]:
+                    - img "Banana Twist" [ref=e1063]
+                    - generic [ref=e1066]:
+                      - generic [ref=e1067]: New
+                      - button "Add to favorites" [ref=e1068]:
+                        - img [ref=e1069]
+                    - link [ref=e1072]:
+                      - /url: /en/casino/game/ss_yggdrasil_yggdrasil:BananaTwist
+                  - generic [ref=e1074] [cursor=pointer]:
+                    - img "Aztec Magic Bonanza" [ref=e1075]
+                    - generic [ref=e1077]:
+                      - generic [ref=e1078]: Hot
+                      - button "Add to favorites" [ref=e1079]:
+                        - img [ref=e1080]
+                    - link [ref=e1083]:
+                      - /url: /en/casino/game/ss_bgaming_softswiss:AztecMagicBonanza
+                  - generic [ref=e1085] [cursor=pointer]:
+                    - img "More Magic Apple" [ref=e1086]
+                    - generic [ref=e1088]:
+                      - generic [ref=e1089]: Hot
+                      - button "Add to favorites" [ref=e1090]:
+                        - img [ref=e1091]
+                    - link [ref=e1094]:
+                      - /url: /en/casino/game/bngmore_magic_apple
+                  - generic [ref=e1096] [cursor=pointer]:
+                    - img "Hawaiian Maxi 7s Hold and Win" [ref=e1097]
+                    - generic [ref=e1099]:
+                      - generic [ref=e1100]: Hot
+                      - button "Add to favorites" [ref=e1101]:
+                        - img [ref=e1102]
+                    - link [ref=e1105]:
+                      - /url: /en/casino/game/fd_hawaiianmaxi7s-hnw
+                  - generic [ref=e1107] [cursor=pointer]:
+                    - 'img "Epic Fish: Marlin Madness" [ref=e1108]'
+                    - generic [ref=e1110]:
+                      - generic [ref=e1111]: Hot
+                      - button "Add to favorites" [ref=e1112]:
+                        - img [ref=e1113]
+                    - link [ref=e1116]:
+                      - /url: /en/casino/game/qsepicfishmarlinmadness
+                  - generic [ref=e1118] [cursor=pointer]:
+                    - img "Coins of Zeus™ Hold & Win" [ref=e1119]
+                    - generic [ref=e1122]:
+                      - generic [ref=e1123]: Hot
+                      - button "Add to favorites" [ref=e1124]:
+                        - img [ref=e1125]
+                    - link [ref=e1128]:
+                      - /url: /en/casino/game/bsg951
+                  - generic [ref=e1130] [cursor=pointer]:
+                    - img "3 Pots of Lunar Wolf - Hold & Win" [ref=e1131]
+                    - generic [ref=e1134]:
+                      - generic [ref=e1135]: Hot
+                      - button "Add to favorites" [ref=e1136]:
+                        - img [ref=e1137]
+                    - link [ref=e1140]:
+                      - /url: /en/casino/game/bsg976
+                  - generic [ref=e1142] [cursor=pointer]:
+                    - img "Coins of Leprechaun - Hold & Win" [ref=e1143]
+                    - button "Add to favorites" [ref=e1147]:
+                      - img [ref=e1148]
+                    - link [ref=e1151]:
+                      - /url: /en/casino/game/bsg975
+                  - generic [ref=e1153] [cursor=pointer]:
+                    - img "Luck O' the Coins Hold & Win" [ref=e1154]
+                    - button "Add to favorites" [ref=e1158]:
+                      - img [ref=e1159]
+                    - link [ref=e1162]:
+                      - /url: /en/casino/game/bsg967
+              - generic [ref=e1163]:
+                - generic [ref=e1164]:
+                  - heading "Betya's Best" [level=2] [ref=e1165]
+                  - generic [ref=e1166]:
+                    - generic [ref=e1167]:
+                      - button "Previous" [disabled]:
+                        - img
+                      - button "Next" [ref=e1168] [cursor=pointer]:
+                        - img [ref=e1169]
+                    - link "View All" [ref=e1171] [cursor=pointer]:
+                      - /url: /en/casino?category=betyas-best
+                - generic [ref=e1174]:
+                  - generic [ref=e1176] [cursor=pointer]:
+                    - img "Piggy Bank Chase Hold and Win" [ref=e1177]
+                    - button "Add to favorites" [ref=e1180]:
+                      - img [ref=e1181]
+                    - link [ref=e1184]:
+                      - /url: /en/casino/game/fd_piggybankchase-hnw
+                  - generic [ref=e1186] [cursor=pointer]:
+                    - img "Ultimate Dragon Inferno™ Hold & Win" [ref=e1187]
+                    - button "Add to favorites" [ref=e1190]:
+                      - img [ref=e1191]
+                    - link [ref=e1194]:
+                      - /url: /en/casino/game/bsg952
+                  - generic [ref=e1196] [cursor=pointer]:
+                    - img "Lion Fury - Hold & Win" [ref=e1197]
+                    - button "Add to favorites" [ref=e1200]:
+                      - img [ref=e1201]
+                    - link [ref=e1204]:
+                      - /url: /en/casino/game/rn_RN-LionFuryHoldWin
+                  - generic [ref=e1206] [cursor=pointer]:
+                    - 'img "Mighty Wild™: Panther Grand Diamond Edition" [ref=e1207]'
+                    - button "Add to favorites" [ref=e1210]:
+                      - img [ref=e1211]
+                    - link [ref=e1214]:
+                      - /url: /en/casino/game/reevo_waz64040
+                  - generic [ref=e1216] [cursor=pointer]:
+                    - img "Sizzling Eggs™ Grand Gold Edition" [ref=e1217]
+                    - button "Add to favorites" [ref=e1220]:
+                      - img [ref=e1221]
+                    - link [ref=e1224]:
+                      - /url: /en/casino/game/reevo_waz67860
+                  - generic [ref=e1226] [cursor=pointer]:
+                    - img "Swoll" [ref=e1227]
+                    - generic [ref=e1229]:
+                      - generic [ref=e1230]: Hot
+                      - button "Add to favorites" [ref=e1231]:
+                        - img [ref=e1232]
+                    - link [ref=e1235]:
+                      - /url: /en/casino/game/shady_swoll
+                  - generic [ref=e1237] [cursor=pointer]:
+                    - img "Party Fiesta 7s" [ref=e1238]
+                    - button "Add to favorites" [ref=e1241]:
+                      - img [ref=e1242]
+                    - link [ref=e1245]:
+                      - /url: /en/casino/game/fd_partyfiesta7s
+                  - generic [ref=e1247] [cursor=pointer]:
+                    - img "3 Pots of Olympus Hold & Win" [ref=e1248]
+                    - button "Add to favorites" [ref=e1251]:
+                      - img [ref=e1252]
+                    - link [ref=e1255]:
+                      - /url: /en/casino/game/bsg1000
+                  - generic [ref=e1257] [cursor=pointer]:
+                    - 'img "Triple 5’s: Supercharged" [ref=e1258]'
+                    - button "Add to favorites" [ref=e1261]:
+                      - img [ref=e1262]
+                    - link [ref=e1265]:
+                      - /url: /en/casino/game/pen_103140
+                  - generic [ref=e1267] [cursor=pointer]:
+                    - img "Phoenix Hotfire Hold & Win" [ref=e1268]
+                    - button "Add to favorites" [ref=e1271]:
+                      - img [ref=e1272]
+                    - link [ref=e1275]:
+                      - /url: /en/casino/game/n2_101056
+                  - generic [ref=e1277] [cursor=pointer]:
+                    - img "Buffalo Bound - Hold & Win" [ref=e1278]
+                    - button "Add to favorites" [ref=e1281]:
+                      - img [ref=e1282]
+                    - link [ref=e1285]:
+                      - /url: /en/casino/game/rn_RN-BuffaloBoundHoldWin
+                  - generic [ref=e1287] [cursor=pointer]:
+                    - img "Hold The Gold" [ref=e1288]
+                    - button "Add to favorites" [ref=e1292]:
+                      - img [ref=e1293]
+                    - link [ref=e1296]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:HoldTheGoldHoldAndWin
+              - generic [ref=e1297]:
+                - generic [ref=e1298]:
+                  - heading "Hot" [level=2] [ref=e1299]
+                  - generic [ref=e1300]:
+                    - generic [ref=e1301]:
+                      - button "Previous" [disabled]:
+                        - img
+                      - button "Next" [ref=e1302] [cursor=pointer]:
+                        - img [ref=e1303]
+                    - link "View All" [ref=e1305] [cursor=pointer]:
+                      - /url: /en/casino?category=hot
+                - generic [ref=e1308]:
+                  - generic [ref=e1310] [cursor=pointer]:
+                    - 'img "Rockin''Joker: Hold and Win" [ref=e1311]'
+                    - generic [ref=e1313]:
+                      - generic [ref=e1314]: Hot
+                      - button "Add to favorites" [ref=e1315]:
+                        - img [ref=e1316]
+                    - link [ref=e1319]:
+                      - /url: /en/casino/game/rg_playsonpls_rockin_joker_hold_and_win
+                  - generic [ref=e1321] [cursor=pointer]:
+                    - img "Buffalo Blox Gigablox" [ref=e1322]
+                    - generic [ref=e1324]:
+                      - generic [ref=e1325]: Hot
+                      - button "Add to favorites" [ref=e1326]:
+                        - img [ref=e1327]
+                    - link [ref=e1330]:
+                      - /url: /en/casino/game/ss_yggdrasil_yggdrasil:BuffaloBloxGigablox
+                  - generic [ref=e1332] [cursor=pointer]:
+                    - img "A Hopping Kiss" [ref=e1333]
+                    - generic [ref=e1335]:
+                      - generic [ref=e1336]: Hot
+                      - button "Add to favorites" [ref=e1337]:
+                        - img [ref=e1338]
+                    - link [ref=e1341]:
+                      - /url: /en/casino/game/swintt_AHoppingKiss
+                  - generic [ref=e1343] [cursor=pointer]:
+                    - img "Lady Fortune" [ref=e1344]
+                    - generic [ref=e1346]:
+                      - generic [ref=e1347]: Hot
+                      - button "Add to favorites" [ref=e1348]:
+                        - img [ref=e1349]
+                    - link [ref=e1352]:
+                      - /url: /en/casino/game/bnglady_fortune
+                  - generic [ref=e1354] [cursor=pointer]:
+                    - img "Caesar's Victory" [ref=e1355]
+                    - generic [ref=e1357]:
+                      - generic [ref=e1358]: Hot
+                      - button "Add to favorites" [ref=e1359]:
+                        - img [ref=e1360]
+                    - link [ref=e1363]:
+                      - /url: /en/casino/game/qora_1485
+                  - generic [ref=e1365] [cursor=pointer]:
+                    - img "Buffalo's Wealth Win Spins" [ref=e1366]
+                    - generic [ref=e1368]:
+                      - generic [ref=e1369]: Hot
+                      - button "Add to favorites" [ref=e1370]:
+                        - img [ref=e1371]
+                    - link [ref=e1374]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:BuffalosWealthWinSpins
+                  - generic [ref=e1376] [cursor=pointer]:
+                    - img "Big Atlantis Frenzy" [ref=e1377]
+                    - generic [ref=e1379]:
+                      - generic [ref=e1380]: Hot
+                      - button "Add to favorites" [ref=e1381]:
+                        - img [ref=e1382]
+                    - link [ref=e1385]:
+                      - /url: /en/casino/game/ss_bgaming_softswiss:BigAtlantisFrenzy
+                  - generic [ref=e1387] [cursor=pointer]:
+                    - img "Aztec Magic Bonanza" [ref=e1388]
+                    - generic [ref=e1390]:
+                      - generic [ref=e1391]: Hot
+                      - button "Add to favorites" [ref=e1392]:
+                        - img [ref=e1393]
+                    - link [ref=e1396]:
+                      - /url: /en/casino/game/ss_bgaming_softswiss:AztecMagicBonanza
+                  - generic [ref=e1398] [cursor=pointer]:
+                    - img "More Magic Apple" [ref=e1399]
+                    - generic [ref=e1401]:
+                      - generic [ref=e1402]: Hot
+                      - button "Add to favorites" [ref=e1403]:
+                        - img [ref=e1404]
+                    - link [ref=e1407]:
+                      - /url: /en/casino/game/bngmore_magic_apple
+                  - generic [ref=e1409] [cursor=pointer]:
+                    - img "Hawaiian Maxi 7s Hold and Win" [ref=e1410]
+                    - generic [ref=e1412]:
+                      - generic [ref=e1413]: Hot
+                      - button "Add to favorites" [ref=e1414]:
+                        - img [ref=e1415]
+                    - link [ref=e1418]:
+                      - /url: /en/casino/game/fd_hawaiianmaxi7s-hnw
+                  - generic [ref=e1420] [cursor=pointer]:
+                    - 'img "Epic Fish: Marlin Madness" [ref=e1421]'
+                    - generic [ref=e1423]:
+                      - generic [ref=e1424]: Hot
+                      - button "Add to favorites" [ref=e1425]:
+                        - img [ref=e1426]
+                    - link [ref=e1429]:
+                      - /url: /en/casino/game/qsepicfishmarlinmadness
+                  - generic [ref=e1431] [cursor=pointer]:
+                    - img "Coins of Zeus™ Hold & Win" [ref=e1432]
+                    - generic [ref=e1435]:
+                      - generic [ref=e1436]: Hot
+                      - button "Add to favorites" [ref=e1437]:
+                        - img [ref=e1438]
+                    - link [ref=e1441]:
+                      - /url: /en/casino/game/bsg951
+                  - generic [ref=e1443] [cursor=pointer]:
+                    - img "3 Pots of Lunar Wolf - Hold & Win" [ref=e1444]
+                    - generic [ref=e1447]:
+                      - generic [ref=e1448]: Hot
+                      - button "Add to favorites" [ref=e1449]:
+                        - img [ref=e1450]
+                    - link [ref=e1453]:
+                      - /url: /en/casino/game/bsg976
+                  - generic [ref=e1455] [cursor=pointer]:
+                    - img "Lucky Sakura" [ref=e1456]
+                    - generic [ref=e1459]:
+                      - generic [ref=e1460]: Hot
+                      - button "Add to favorites" [ref=e1461]:
+                        - img [ref=e1462]
+                    - link [ref=e1465]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:LuckySakura
+                  - generic [ref=e1467] [cursor=pointer]:
+                    - img "Dollars of the Deep + Slot Bingo" [ref=e1468]
+                    - generic [ref=e1471]:
+                      - generic [ref=e1472]: New
+                      - button "Add to favorites" [ref=e1473]:
+                        - img [ref=e1474]
+                    - link [ref=e1477]:
+                      - /url: /en/casino/game/rp_WL_DollarsOfTheDeep_SlotBingo95_Embedded
+                  - generic [ref=e1479] [cursor=pointer]:
+                    - img "Golden Dragon Inferno" [ref=e1480]
+                    - generic [ref=e1483]:
+                      - generic [ref=e1484]: Hot
+                      - button "Add to favorites" [ref=e1485]:
+                        - img [ref=e1486]
+                    - link [ref=e1489]:
+                      - /url: /en/casino/game/bsg877
+                  - generic [ref=e1491] [cursor=pointer]:
+                    - img "Aztec Fire 2" [ref=e1492]
+                    - generic [ref=e1495]:
+                      - generic [ref=e1496]: Hot
+                      - button "Add to favorites" [ref=e1497]:
+                        - img [ref=e1498]
+                    - link [ref=e1501]:
+                      - /url: /en/casino/game/bngaztec_fire_2
+                  - generic [ref=e1503] [cursor=pointer]:
+                    - img "Wolf Spins 243" [ref=e1504]
+                    - generic [ref=e1507]:
+                      - generic [ref=e1508]: Hot
+                      - button "Add to favorites" [ref=e1509]:
+                        - img [ref=e1510]
+                    - link [ref=e1513]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:WolfSpins243
+                  - generic [ref=e1515] [cursor=pointer]:
+                    - img "Coin Crusher" [ref=e1516]
+                    - generic [ref=e1519]:
+                      - generic [ref=e1520]: Hot
+                      - button "Add to favorites" [ref=e1521]:
+                        - img [ref=e1522]
+                    - link [ref=e1525]:
+                      - /url: /en/casino/game/reevo_boom67199
+                  - generic [ref=e1527] [cursor=pointer]:
+                    - img "Reels of Wealth" [ref=e1528]
+                    - generic [ref=e1531]:
+                      - generic [ref=e1532]: Hot
+                      - button "Add to favorites" [ref=e1533]:
+                        - img [ref=e1534]
+                    - link [ref=e1537]:
+                      - /url: /en/casino/game/bsg792
+                  - generic [ref=e1539] [cursor=pointer]:
+                    - img "PayDay Piggy" [ref=e1540]
+                    - generic [ref=e1543]:
+                      - generic [ref=e1544]: Hot
+                      - button "Add to favorites" [ref=e1545]:
+                        - img [ref=e1546]
+                    - link [ref=e1549]:
+                      - /url: /en/casino/game/reevo_boom56599
+                  - generic [ref=e1551] [cursor=pointer]:
+                    - img "Eastern Emeralds" [ref=e1552]
+                    - generic [ref=e1555]:
+                      - generic [ref=e1556]: Hot
+                      - button "Add to favorites" [ref=e1557]:
+                        - img [ref=e1558]
+                    - link [ref=e1561]:
+                      - /url: /en/casino/game/qseasternemeralds
+                  - generic [ref=e1563] [cursor=pointer]:
+                    - img "Leprechaun Coins" [ref=e1564]
+                    - generic [ref=e1567]:
+                      - generic [ref=e1568]: Hot
+                      - button "Add to favorites" [ref=e1569]:
+                        - img [ref=e1570]
+                    - link [ref=e1573]:
+                      - /url: /en/casino/game/platipus_leprechauns
+                  - generic [ref=e1575] [cursor=pointer]:
+                    - img "Buffalo's Wealth Hold and Win" [ref=e1576]
+                    - generic [ref=e1579]:
+                      - generic [ref=e1580]: Hot
+                      - button "Add to favorites" [ref=e1581]:
+                        - img [ref=e1582]
+                    - link [ref=e1585]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:BuffalosWealthHoldAndWin
+                  - generic [ref=e1587] [cursor=pointer]:
+                    - img "Book of Sun Multichance" [ref=e1588]
+                    - generic [ref=e1591]:
+                      - generic [ref=e1592]: Hot
+                      - button "Add to favorites" [ref=e1593]:
+                        - img [ref=e1594]
+                    - link [ref=e1597]:
+                      - /url: /en/casino/game/bngbook_of_sun_multichance
+              - generic [ref=e1598]:
+                - generic [ref=e1599]:
+                  - heading "Originals" [level=2] [ref=e1600]
+                  - generic [ref=e1601]:
+                    - generic [ref=e1602]:
+                      - button "Previous" [disabled]:
+                        - img
+                      - button "Next" [ref=e1603] [cursor=pointer]:
+                        - img [ref=e1604]
+                    - link "View All" [ref=e1606] [cursor=pointer]:
+                      - /url: /en/casino?category=originals
+                - generic [ref=e1609]:
+                  - generic [ref=e1611] [cursor=pointer]:
+                    - img "Baccarat" [ref=e1612]
+                    - button "Add to favorites" [ref=e1616]:
+                      - img [ref=e1617]
+                    - link [ref=e1620]:
+                      - /url: /en/casino/game/originalsbaccarat
+                  - generic [ref=e1622] [cursor=pointer]:
+                    - img "Diamonds" [ref=e1623]
+                    - button "Add to favorites" [ref=e1627]:
+                      - img [ref=e1628]
+                    - link [ref=e1631]:
+                      - /url: /en/casino/game/originalsdiamonds
+                  - generic [ref=e1633] [cursor=pointer]:
+                    - img "Crash" [ref=e1634]
+                    - button "Add to favorites" [ref=e1638]:
+                      - img [ref=e1639]
+                    - link [ref=e1642]:
+                      - /url: /en/casino/game/originalscrash
+                  - generic [ref=e1644] [cursor=pointer]:
+                    - img "Mines" [ref=e1645]
+                    - button "Add to favorites" [ref=e1649]:
+                      - img [ref=e1650]
+                    - link [ref=e1653]:
+                      - /url: /en/casino/game/originalsmines
+                  - generic [ref=e1655] [cursor=pointer]:
+                    - img "Roulette" [ref=e1656]
+                    - button "Add to favorites" [ref=e1660]:
+                      - img [ref=e1661]
+                    - link [ref=e1664]:
+                      - /url: /en/casino/game/originalsroulette
+                  - generic [ref=e1666] [cursor=pointer]:
+                    - img "Blackjack" [ref=e1667]
+                    - button "Add to favorites" [ref=e1671]:
+                      - img [ref=e1672]
+                    - link [ref=e1675]:
+                      - /url: /en/casino/game/originalsblackjack
+                  - generic [ref=e1677] [cursor=pointer]:
+                    - img "Video Poker" [ref=e1678]
+                    - button "Add to favorites" [ref=e1682]:
+                      - img [ref=e1683]
+                    - link [ref=e1686]:
+                      - /url: /en/casino/game/originalsvideopoker
+                  - generic [ref=e1688] [cursor=pointer]:
+                    - img "Limbo" [ref=e1689]
+                    - button "Add to favorites" [ref=e1693]:
+                      - img [ref=e1694]
+                    - link [ref=e1697]:
+                      - /url: /en/casino/game/originalslimbo
+                  - generic [ref=e1699] [cursor=pointer]:
+                    - img "Dragon’s Tower" [ref=e1700]
+                    - button "Add to favorites" [ref=e1704]:
+                      - img [ref=e1705]
+                    - link [ref=e1708]:
+                      - /url: /en/casino/game/originalsdragonstower
+                  - generic [ref=e1710] [cursor=pointer]:
+                    - img "Keno" [ref=e1711]
+                    - button "Add to favorites" [ref=e1715]:
+                      - img [ref=e1716]
+                    - link [ref=e1719]:
+                      - /url: /en/casino/game/originalskeno
+                  - generic [ref=e1721] [cursor=pointer]:
+                    - img "Slider" [ref=e1722]
+                    - button "Add to favorites" [ref=e1726]:
+                      - img [ref=e1727]
+                    - link [ref=e1730]:
+                      - /url: /en/casino/game/originalsslider
+                  - generic [ref=e1732] [cursor=pointer]:
+                    - img "Wheel" [ref=e1733]
+                    - button "Add to favorites" [ref=e1737]:
+                      - img [ref=e1738]
+                    - link [ref=e1741]:
+                      - /url: /en/casino/game/originalswheel
+                  - generic [ref=e1743] [cursor=pointer]:
+                    - img "Plinko" [ref=e1744]
+                    - button "Add to favorites" [ref=e1748]:
+                      - img [ref=e1749]
+                    - link [ref=e1752]:
+                      - /url: /en/casino/game/originalsplinko
+                  - generic [ref=e1754] [cursor=pointer]:
+                    - img "HiLo" [ref=e1755]
+                    - button "Add to favorites" [ref=e1759]:
+                      - img [ref=e1760]
+                    - link [ref=e1763]:
+                      - /url: /en/casino/game/originalshilo
+                  - generic [ref=e1765] [cursor=pointer]:
+                    - img "Cross the Road!" [ref=e1766]
+                    - button "Add to favorites" [ref=e1770]:
+                      - img [ref=e1771]
+                    - link [ref=e1774]:
+                      - /url: /en/casino/game/originalscrosstheroad
+                  - generic [ref=e1776] [cursor=pointer]:
+                    - img "Dice" [ref=e1777]
+                    - button "Add to favorites" [ref=e1781]:
+                      - img [ref=e1782]
+                    - link [ref=e1785]:
+                      - /url: /en/casino/game/originalsdice
+              - generic [ref=e1786]:
+                - generic [ref=e1787]:
+                  - heading "Top Wins" [level=2] [ref=e1788]
+                  - generic [ref=e1790]:
+                    - button "Previous" [disabled]:
+                      - img
+                    - button "Next" [ref=e1791] [cursor=pointer]:
+                      - img [ref=e1792]
+                - generic [ref=e1796]:
+                  - generic [ref=e1798]:
+                    - 'link "Super Pink Joker: Hold and Win" [ref=e1800] [cursor=pointer]':
+                      - /url: /en/casino/game/rg_playsonpls_super_pink_joker_hold_and_win
+                      - 'img "Super Pink Joker: Hold and Win" [ref=e1801]'
+                    - generic [ref=e1803]:
+                      - generic [ref=e1804]:
+                        - generic [ref=e1805]: "#01"
+                        - 'heading "Super Pink Joker: Hold and Win" [level=3] [ref=e1806]'
+                        - paragraph [ref=e1807]: lokesh
+                      - generic [ref=e1808]:
+                        - generic [ref=e1809]:
+                          - img [ref=e1811]
+                          - generic [ref=e1813]:
+                            - generic [ref=e1814]: Total Wins
+                            - generic [ref=e1815]: $ 234.49
+                        - button "Play now" [ref=e1816] [cursor=pointer]
+                  - generic [ref=e1818]:
+                    - link "Black Wolf 2" [ref=e1820] [cursor=pointer]:
+                      - /url: /en/casino/game/bngblack_wolf_2
+                      - img "Black Wolf 2" [ref=e1821]
+                    - generic [ref=e1823]:
+                      - generic [ref=e1824]:
+                        - generic [ref=e1825]: "#02"
+                        - heading "Black Wolf 2" [level=3] [ref=e1826]
+                        - paragraph [ref=e1827]: lokesh
+                      - generic [ref=e1828]:
+                        - generic [ref=e1829]:
+                          - img [ref=e1831]
+                          - generic [ref=e1833]:
+                            - generic [ref=e1834]: Total Wins
+                            - generic [ref=e1835]: $ 224.48
+                        - button "Play now" [ref=e1836] [cursor=pointer]
+                  - generic [ref=e1838]:
+                    - link "Crack More Piggy Banks" [ref=e1840] [cursor=pointer]:
+                      - /url: /en/casino/game/pen_103132
+                      - img "Crack More Piggy Banks" [ref=e1841]
+                    - generic [ref=e1842]:
+                      - generic [ref=e1843]:
+                        - generic [ref=e1844]: "#03"
+                        - heading "Crack More Piggy Banks" [level=3] [ref=e1845]
+                        - paragraph [ref=e1846]: cdcbtjreal
+                      - generic [ref=e1847]:
+                        - generic [ref=e1848]:
+                          - img [ref=e1850]
+                          - generic [ref=e1852]:
+                            - generic [ref=e1853]: Total Wins
+                            - generic [ref=e1854]: $ 184.20
+                        - button "Play now" [ref=e1855] [cursor=pointer]
+                  - generic [ref=e1857]:
+                    - 'link "Coin Strike XXL: Hold and Win" [ref=e1859] [cursor=pointer]':
+                      - /url: /en/casino/game/rg_playsonpls_coin_strike_xxl_hold_and_win
+                      - 'img "Coin Strike XXL: Hold and Win" [ref=e1860]'
+                    - generic [ref=e1861]:
+                      - generic [ref=e1862]:
+                        - generic [ref=e1863]: "#04"
+                        - 'heading "Coin Strike XXL: Hold and Win" [level=3] [ref=e1864]'
+                        - paragraph [ref=e1865]: Chyme345
+                      - generic [ref=e1866]:
+                        - generic [ref=e1867]:
+                          - img [ref=e1869]
+                          - generic [ref=e1871]:
+                            - generic [ref=e1872]: Total Wins
+                            - generic [ref=e1873]: $ 82.89
+                        - button "Play now" [ref=e1874] [cursor=pointer]
+                  - generic [ref=e1876]:
+                    - link "15 Dragon Pearls" [ref=e1878] [cursor=pointer]:
+                      - /url: /en/casino/game/bng15_dragon_pearls
+                      - img "15 Dragon Pearls" [ref=e1879]
+                    - generic [ref=e1880]:
+                      - generic [ref=e1881]:
+                        - generic [ref=e1882]: "#05"
+                        - heading "15 Dragon Pearls" [level=3] [ref=e1883]
+                        - paragraph [ref=e1884]: cdcbtjreal
+                      - generic [ref=e1885]:
+                        - generic [ref=e1886]:
+                          - img [ref=e1888]
+                          - generic [ref=e1890]:
+                            - generic [ref=e1891]: Total Wins
+                            - generic [ref=e1892]: $ 72.00
+                        - button "Play now" [ref=e1893] [cursor=pointer]
+                  - generic [ref=e1895]:
+                    - link "Sun of Egypt 5" [ref=e1897] [cursor=pointer]:
+                      - /url: /en/casino/game/bngsun_of_egypt_5
+                      - img "Sun of Egypt 5" [ref=e1898]
+                    - generic [ref=e1899]:
+                      - generic [ref=e1900]:
+                        - generic [ref=e1901]: "#06"
+                        - heading "Sun of Egypt 5" [level=3] [ref=e1902]
+                        - paragraph [ref=e1903]: betyaprod1
+                      - generic [ref=e1904]:
+                        - generic [ref=e1905]:
+                          - img [ref=e1907]
+                          - generic [ref=e1909]:
+                            - generic [ref=e1910]: Total Wins
+                            - generic [ref=e1911]: $ 33.00
+                        - button "Play now" [ref=e1912] [cursor=pointer]
+                  - generic [ref=e1914]:
+                    - link "Flamingo Fever" [ref=e1916] [cursor=pointer]:
+                      - /url: /en/casino/game/spnRetro_FlamingoFever
+                      - img "Flamingo Fever" [ref=e1917]
+                    - generic [ref=e1918]:
+                      - generic [ref=e1919]:
+                        - generic [ref=e1920]: "#07"
+                        - heading "Flamingo Fever" [level=3] [ref=e1921]
+                        - paragraph [ref=e1922]: betyaprod1
+                      - generic [ref=e1923]:
+                        - generic [ref=e1924]:
+                          - img [ref=e1926]
+                          - generic [ref=e1928]:
+                            - generic [ref=e1929]: Total Wins
+                            - generic [ref=e1930]: $ 26.50
+                        - button "Play now" [ref=e1931] [cursor=pointer]
+                  - generic [ref=e1933]:
+                    - 'link "Thunder Coins XXL: Hold and Win" [ref=e1935] [cursor=pointer]':
+                      - /url: /en/casino/game/rg_playsonpls_thunder_coins_xxl_hold_and_win
+                      - 'img "Thunder Coins XXL: Hold and Win" [ref=e1936]'
+                    - generic [ref=e1937]:
+                      - generic [ref=e1938]:
+                        - generic [ref=e1939]: "#08"
+                        - 'heading "Thunder Coins XXL: Hold and Win" [level=3] [ref=e1940]'
+                        - paragraph [ref=e1941]: betyaprod1
+                      - generic [ref=e1942]:
+                        - generic [ref=e1943]:
+                          - img [ref=e1945]
+                          - generic [ref=e1947]:
+                            - generic [ref=e1948]: Total Wins
+                            - generic [ref=e1949]: $ 17.00
+                        - button "Play now" [ref=e1950] [cursor=pointer]
+                  - generic [ref=e1952]:
+                    - 'link "Super Pink Joker: Hold and Win" [ref=e1954] [cursor=pointer]':
+                      - /url: /en/casino/game/rg_playsonpls_super_pink_joker_hold_and_win
+                      - 'img "Super Pink Joker: Hold and Win" [ref=e1955]'
+                    - generic [ref=e1957]:
+                      - generic [ref=e1958]:
+                        - generic [ref=e1959]: "#09"
+                        - 'heading "Super Pink Joker: Hold and Win" [level=3] [ref=e1960]'
+                        - paragraph [ref=e1961]: jagan420
+                      - generic [ref=e1962]:
+                        - generic [ref=e1963]:
+                          - img [ref=e1965]
+                          - generic [ref=e1967]:
+                            - generic [ref=e1968]: Total Wins
+                            - generic [ref=e1969]: $ 6.79
+                        - button "Play now" [ref=e1970] [cursor=pointer]
+                  - generic [ref=e1972]:
+                    - link "Devil's Finger" [ref=e1974] [cursor=pointer]:
+                      - /url: /en/casino/game/shady_devilsfinger
+                      - img "Devil's Finger" [ref=e1975]
+                    - generic [ref=e1977]:
+                      - generic [ref=e1978]:
+                        - generic [ref=e1979]: "#10"
+                        - heading "Devil's Finger" [level=3] [ref=e1980]
+                        - paragraph [ref=e1981]: kalkwarf3
+                      - generic [ref=e1982]:
+                        - generic [ref=e1983]:
+                          - img [ref=e1985]
+                          - generic [ref=e1987]:
+                            - generic [ref=e1988]: Total Wins
+                            - generic [ref=e1989]: $ 6.18
+                        - button "Play now" [ref=e1990] [cursor=pointer]
+              - generic [ref=e1991]:
+                - generic [ref=e1992]:
+                  - heading "Video Slots" [level=2] [ref=e1993]
+                  - generic [ref=e1994]:
+                    - generic [ref=e1995]:
+                      - button "Previous" [disabled]:
+                        - img
+                      - button "Next" [ref=e1996] [cursor=pointer]:
+                        - img [ref=e1997]
+                    - link "View All" [ref=e1999] [cursor=pointer]:
+                      - /url: /en/casino?category=video-slots
+                - generic [ref=e2002]:
+                  - generic [ref=e2004] [cursor=pointer]:
+                    - img "Times of Egypt – Pharoah’s Reign" [ref=e2005]
+                    - button "Add to favorites" [ref=e2009]:
+                      - img [ref=e2010]
+                    - link [ref=e2013]:
+                      - /url: /en/casino/game/spnSlotMachine_TimesOfEgypt-Pharaoh
+                  - generic [ref=e2015] [cursor=pointer]:
+                    - img "Book Of Champions - World Glory" [ref=e2016]
+                    - button "Add to favorites" [ref=e2020]:
+                      - img [ref=e2021]
+                    - link [ref=e2024]:
+                      - /url: /en/casino/game/spnSlotMachine_BookOfChampions-WorldGlory
+                  - generic [ref=e2026] [cursor=pointer]:
+                    - img "Wolf Fang – Apocalypse" [ref=e2027]
+                    - button "Add to favorites" [ref=e2031]:
+                      - img [ref=e2032]
+                    - link [ref=e2035]:
+                      - /url: /en/casino/game/spnSlotMachine_WolfFangApocalypse
+                  - generic [ref=e2037] [cursor=pointer]:
+                    - img "Lawless Ladies Return" [ref=e2038]
+                    - button "Add to favorites" [ref=e2042]:
+                      - img [ref=e2043]
+                    - link [ref=e2046]:
+                      - /url: /en/casino/game/qora_5010
+                  - generic [ref=e2048] [cursor=pointer]:
+                    - 'img "Super Pink Joker: Hold and Win" [ref=e2049]'
+                    - button "Add to favorites" [ref=e2053]:
+                      - img [ref=e2054]
+                    - link [ref=e2057]:
+                      - /url: /en/casino/game/rg_playsonpls_super_pink_joker_hold_and_win
+                  - generic [ref=e2059] [cursor=pointer]:
+                    - img "Crystals on Fire" [ref=e2060]
+                    - button "Add to favorites" [ref=e2064]:
+                      - img [ref=e2065]
+                    - link [ref=e2068]:
+                      - /url: /en/casino/game/qora_6337
+                  - generic [ref=e2070] [cursor=pointer]:
+                    - img "Alice’s Wonder Tale" [ref=e2071]
+                    - button "Add to favorites" [ref=e2075]:
+                      - img [ref=e2076]
+                    - link [ref=e2079]:
+                      - /url: /en/casino/game/spnSlotMachine_AlicesWonderTale
+                  - generic [ref=e2081] [cursor=pointer]:
+                    - img "Book of Rampage Christmas Edition" [ref=e2082]
+                    - button "Add to favorites" [ref=e2086]:
+                      - img [ref=e2087]
+                    - link [ref=e2090]:
+                      - /url: /en/casino/game/spnSlotMachine_BookOfRampage-CE
+                  - generic [ref=e2092] [cursor=pointer]:
+                    - img "Book of Wolves Full Moon" [ref=e2093]
+                    - button "Add to favorites" [ref=e2097]:
+                      - img [ref=e2098]
+                    - link [ref=e2101]:
+                      - /url: /en/casino/game/spnSlotMachine_BookOfWolves-FullMoon
+                  - generic [ref=e2103] [cursor=pointer]:
+                    - img "Dreams Of Cleopatra" [ref=e2104]
+                    - button "Add to favorites" [ref=e2108]:
+                      - img [ref=e2109]
+                    - link [ref=e2112]:
+                      - /url: /en/casino/game/spnSlotMachine_DreamsOfCleopatra
+                  - generic [ref=e2114] [cursor=pointer]:
+                    - img "Juiced DuoMax™" [ref=e2115]
+                    - button "Add to favorites" [ref=e2119]:
+                      - img [ref=e2120]
+                    - link [ref=e2123]:
+                      - /url: /en/casino/game/ss_yggdrasil_yggdrasil:JuicedDuoMax
+                  - generic [ref=e2125] [cursor=pointer]:
+                    - 'img "Power Boost: Money Express" [ref=e2126]'
+                    - button "Add to favorites" [ref=e2130]:
+                      - img [ref=e2131]
+                    - link [ref=e2134]:
+                      - /url: /en/casino/game/rg_fugaso_xs_power_boost_money_express
+                  - generic [ref=e2136] [cursor=pointer]:
+                    - img "Dragon Tiger Gate" [ref=e2137]
+                    - button "Add to favorites" [ref=e2141]:
+                      - img [ref=e2142]
+                    - link [ref=e2145]:
+                      - /url: /en/casino/game/habSGDragonTigerGate
+                  - generic [ref=e2147] [cursor=pointer]:
+                    - 'img "Rockin''Joker: Hold and Win" [ref=e2148]'
+                    - generic [ref=e2150]:
+                      - generic [ref=e2151]: Hot
+                      - button "Add to favorites" [ref=e2152]:
+                        - img [ref=e2153]
+                    - link [ref=e2156]:
+                      - /url: /en/casino/game/rg_playsonpls_rockin_joker_hold_and_win
+                  - generic [ref=e2158] [cursor=pointer]:
+                    - img "Mine Mine Quest" [ref=e2159]
+                    - button "Add to favorites" [ref=e2163]:
+                      - img [ref=e2164]
+                    - link [ref=e2167]:
+                      - /url: /en/casino/game/reevo_th50040
+                  - generic [ref=e2169] [cursor=pointer]:
+                    - img "Vegas - Chase'N'Win" [ref=e2170]
+                    - button "Add to favorites" [ref=e2174]:
+                      - img [ref=e2175]
+                    - link [ref=e2178]:
+                      - /url: /en/casino/game/spnSlotMachine_Vegas-ChaseNWin
+                  - generic [ref=e2180] [cursor=pointer]:
+                    - img "Mighty Arthur" [ref=e2181]
+                    - button "Add to favorites" [ref=e2185]:
+                      - img [ref=e2186]
+                    - link [ref=e2189]:
+                      - /url: /en/casino/game/qsmightyarthur
+                  - generic [ref=e2191] [cursor=pointer]:
+                    - img "Winterberries" [ref=e2192]
+                    - button "Add to favorites" [ref=e2196]:
+                      - img [ref=e2197]
+                    - link [ref=e2200]:
+                      - /url: /en/casino/game/ss_yggdrasil_yggdrasil:Winterberries
+                  - generic [ref=e2202] [cursor=pointer]:
+                    - img "Cricket Mania" [ref=e2203]
+                    - button "Add to favorites" [ref=e2207]:
+                      - img [ref=e2208]
+                    - link [ref=e2211]:
+                      - /url: /en/casino/game/reevo_th50047
+                  - generic [ref=e2213] [cursor=pointer]:
+                    - img "Mexican Chilies" [ref=e2214]
+                    - button "Add to favorites" [ref=e2218]:
+                      - img [ref=e2219]
+                    - link [ref=e2222]:
+                      - /url: /en/casino/game/spnRetro_MexicanChilies
+                  - generic [ref=e2224] [cursor=pointer]:
+                    - img "Realm of the Gods" [ref=e2225]
+                    - button "Add to favorites" [ref=e2229]:
+                      - img [ref=e2230]
+                    - link [ref=e2233]:
+                      - /url: /en/casino/game/qora_6357
+                  - generic [ref=e2235] [cursor=pointer]:
+                    - img "Pop'n Fruits Blast" [ref=e2236]
+                    - button "Add to favorites" [ref=e2240]:
+                      - img [ref=e2241]
+                    - link [ref=e2244]:
+                      - /url: /en/casino/game/qora_7688
+                  - generic [ref=e2246] [cursor=pointer]:
+                    - img "Moon Dragons Hold and Win" [ref=e2247]
+                    - button "Add to favorites" [ref=e2251]:
+                      - img [ref=e2252]
+                    - link [ref=e2255]:
+                      - /url: /en/casino/game/fd_moondragons-holdandwin
+                  - generic [ref=e2257] [cursor=pointer]:
+                    - img "Keepers of the Secret" [ref=e2258]
+                    - button "Add to favorites" [ref=e2262]:
+                      - img [ref=e2263]
+                    - link [ref=e2266]:
+                      - /url: /en/casino/game/ss_bgaming_softswiss:KeepersOfTheSecret7rst
+                  - generic [ref=e2268] [cursor=pointer]:
+                    - img "Wild Easter Gifts" [ref=e2269]
+                    - button "Add to favorites" [ref=e2273]:
+                      - img [ref=e2274]
+                    - link [ref=e2277]:
+                      - /url: /en/casino/game/spnSlotMachine_WildEasterGifts
+              - generic [ref=e2278]:
+                - generic [ref=e2279]:
+                  - heading "Live Dealer" [level=2] [ref=e2280]
+                  - generic [ref=e2281]:
+                    - generic [ref=e2282]:
+                      - button "Previous" [disabled]:
+                        - img
+                      - button "Next" [ref=e2283] [cursor=pointer]:
+                        - img [ref=e2284]
+                    - link "View All" [ref=e2286] [cursor=pointer]:
+                      - /url: /en/casino?category=live-dealer
+                - generic [ref=e2289]:
+                  - generic [ref=e2291] [cursor=pointer]:
+                    - img "Ice Fishing" [ref=e2292]
+                    - button "Add to favorites" [ref=e2296]:
+                      - img [ref=e2297]
+                    - link [ref=e2300]:
+                      - /url: /en/casino/game/gh_evo96197
+                  - generic [ref=e2302] [cursor=pointer]:
+                    - img "Glactic VIP Roulette" [ref=e2303]
+                    - button "Add to favorites" [ref=e2307]:
+                      - img [ref=e2308]
+                    - link [ref=e2311]:
+                      - /url: /en/casino/game/vivo_1
+                  - generic [ref=e2313] [cursor=pointer]:
+                    - img "Macau Baccarat" [ref=e2314]
+                    - button "Add to favorites" [ref=e2318]:
+                      - img [ref=e2319]
+                    - link [ref=e2322]:
+                      - /url: /en/casino/game/vivo_3
+                  - generic [ref=e2324] [cursor=pointer]:
+                    - img "Funky Time" [ref=e2325]
+                    - button "Add to favorites" [ref=e2329]:
+                      - img [ref=e2330]
+                    - link [ref=e2333]:
+                      - /url: /en/casino/game/gh_evo60201
+                  - generic [ref=e2335] [cursor=pointer]:
+                    - img "Fireball Roulette" [ref=e2336]
+                    - button "Add to favorites" [ref=e2340]:
+                      - img [ref=e2341]
+                    - link [ref=e2344]:
+                      - /url: /en/casino/game/gh_evo92695
+                  - generic [ref=e2346] [cursor=pointer]:
+                    - img "First Person Video Poker" [ref=e2347]
+                    - button "Add to favorites" [ref=e2351]:
+                      - img [ref=e2352]
+                    - link [ref=e2355]:
+                      - /url: /en/casino/game/gh_evo66413
+                  - generic [ref=e2357] [cursor=pointer]:
+                    - img "Andar Bahar Double Up" [ref=e2358]
+                    - button "Add to favorites" [ref=e2362]:
+                      - img [ref=e2363]
+                    - link [ref=e2366]:
+                      - /url: /en/casino/game/vivo_50
+                  - generic [ref=e2368] [cursor=pointer]:
+                    - img "VIP Baccarat" [ref=e2369]
+                    - button "Add to favorites" [ref=e2373]:
+                      - img [ref=e2374]
+                    - link [ref=e2377]:
+                      - /url: /en/casino/game/vivo_27
+                  - generic [ref=e2379] [cursor=pointer]:
+                    - img "Crazy Time" [ref=e2380]
+                    - button "Add to favorites" [ref=e2384]:
+                      - img [ref=e2385]
+                    - link [ref=e2388]:
+                      - /url: /en/casino/game/gh_evo29417
+                  - generic [ref=e2390] [cursor=pointer]:
+                    - img "Las Vegas Roulette" [ref=e2391]
+                    - button "Add to favorites" [ref=e2395]:
+                      - img [ref=e2396]
+                    - link [ref=e2399]:
+                      - /url: /en/casino/game/vivo_26
+                  - generic [ref=e2401] [cursor=pointer]:
+                    - img "Velvet VIP Blackjack" [ref=e2402]
+                    - button "Add to favorites" [ref=e2406]:
+                      - img [ref=e2407]
+                    - link [ref=e2410]:
+                      - /url: /en/casino/game/vivo_18
+                  - generic [ref=e2412] [cursor=pointer]:
+                    - img "Oceania VIP Blackjack" [ref=e2413]
+                    - button "Add to favorites" [ref=e2417]:
+                      - img [ref=e2418]
+                    - link [ref=e2421]:
+                      - /url: /en/casino/game/vivo_16
+                  - generic [ref=e2423] [cursor=pointer]:
+                    - img "Macau Baccarat" [ref=e2424]
+                    - button "Add to favorites" [ref=e2428]:
+                      - img [ref=e2429]
+                    - link [ref=e2432]:
+                      - /url: /en/casino/game/vivo_17
+                  - generic [ref=e2434] [cursor=pointer]:
+                    - img "XXXtreme Lightning Roulette" [ref=e2435]
+                    - button "Add to favorites" [ref=e2439]:
+                      - img [ref=e2440]
+                    - link [ref=e2443]:
+                      - /url: /en/casino/game/gh_evo47353
+                  - generic [ref=e2445] [cursor=pointer]:
+                    - img "Crazy Coin Flip" [ref=e2446]
+                    - button "Add to favorites" [ref=e2450]:
+                      - img [ref=e2451]
+                    - link [ref=e2454]:
+                      - /url: /en/casino/game/gh_evo48621
+                  - generic [ref=e2456] [cursor=pointer]:
+                    - img "Auto Roulette LIVE" [ref=e2457]
+                    - button "Add to favorites" [ref=e2461]:
+                      - img [ref=e2462]
+                    - link [ref=e2465]:
+                      - /url: /en/casino/game/platipus_liveautoroulette
+                  - generic [ref=e2467] [cursor=pointer]:
+                    - img "Crazy Pachinko" [ref=e2468]
+                    - button "Add to favorites" [ref=e2472]:
+                      - img [ref=e2473]
+                    - link [ref=e2476]:
+                      - /url: /en/casino/game/gh_evo67439
+                  - generic [ref=e2478] [cursor=pointer]:
+                    - img "VIP Roulette" [ref=e2479]
+                    - button "Add to favorites" [ref=e2483]:
+                      - img [ref=e2484]
+                    - link [ref=e2487]:
+                      - /url: /en/casino/game/gh_evo25613
+                  - generic [ref=e2489] [cursor=pointer]:
+                    - img "Triple Card Poker" [ref=e2490]
+                    - button "Add to favorites" [ref=e2494]:
+                      - img [ref=e2495]
+                    - link [ref=e2498]:
+                      - /url: /en/casino/game/gh_evo25605
+                  - generic [ref=e2500] [cursor=pointer]:
+                    - img "Turkish Roulette" [ref=e2501]
+                    - button "Add to favorites" [ref=e2505]:
+                      - img [ref=e2506]
+                    - link [ref=e2509]:
+                      - /url: /en/casino/game/gh_evo25609
+                  - generic [ref=e2511] [cursor=pointer]:
+                    - img "Football Studio" [ref=e2512]
+                    - button "Add to favorites" [ref=e2516]:
+                      - img [ref=e2517]
+                    - link [ref=e2520]:
+                      - /url: /en/casino/game/gh_evo25601
+                  - generic [ref=e2522] [cursor=pointer]:
+                    - img "Lightning Bac Bo" [ref=e2523]
+                    - button "Add to favorites" [ref=e2527]:
+                      - img [ref=e2528]
+                    - link [ref=e2531]:
+                      - /url: /en/casino/game/gh_evo93737
+                  - generic [ref=e2533] [cursor=pointer]:
+                    - img "Livespins – Bet With Streamers" [ref=e2534]
+                    - button "Add to favorites" [ref=e2538]:
+                      - img [ref=e2539]
+                    - link [ref=e2542]:
+                      - /url: /en/casino/game/gh_evo81855
+                  - generic [ref=e2544] [cursor=pointer]:
+                    - img "Bac Bo" [ref=e2545]
+                    - button "Add to favorites" [ref=e2549]:
+                      - img [ref=e2550]
+                    - link [ref=e2553]:
+                      - /url: /en/casino/game/gh_evo42239
+                  - generic [ref=e2555] [cursor=pointer]:
+                    - img "Extra Chili Epic Spins" [ref=e2556]
+                    - button "Add to favorites" [ref=e2560]:
+                      - img [ref=e2561]
+                    - link [ref=e2564]:
+                      - /url: /en/casino/game/gh_evo59157
+              - generic [ref=e2565]:
+                - generic [ref=e2566]:
+                  - heading "Classic Slots" [level=2] [ref=e2567]
+                  - generic [ref=e2568]:
+                    - generic [ref=e2569]:
+                      - button "Previous" [disabled]:
+                        - img
+                      - button "Next" [ref=e2570] [cursor=pointer]:
+                        - img [ref=e2571]
+                    - link "View All" [ref=e2573] [cursor=pointer]:
+                      - /url: /en/casino?category=classic-slots
+                - generic [ref=e2576]:
+                  - generic [ref=e2578] [cursor=pointer]:
+                    - img "Cash'n Fruits 100" [ref=e2579]
+                    - button "Add to favorites" [ref=e2583]:
+                      - img [ref=e2584]
+                    - link [ref=e2587]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:CashnFruits100
+                  - generic [ref=e2589] [cursor=pointer]:
+                    - img "Cash'n Fruits 243 X" [ref=e2590]
+                    - button "Add to favorites" [ref=e2594]:
+                      - img [ref=e2595]
+                    - link [ref=e2598]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:CashnFruits243x
+                  - generic [ref=e2600] [cursor=pointer]:
+                    - img "Jungle Wealth Hold And Win" [ref=e2601]
+                    - button "Add to favorites" [ref=e2605]:
+                      - img [ref=e2606]
+                    - link [ref=e2609]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:JungleWealthHoldAndWin
+                  - generic [ref=e2611] [cursor=pointer]:
+                    - img "Cash'n Fruits 100 Hold And Win" [ref=e2612]
+                    - button "Add to favorites" [ref=e2616]:
+                      - img [ref=e2617]
+                    - link [ref=e2620]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:CashnFruits100HoldAndWin
+                  - generic [ref=e2622] [cursor=pointer]:
+                    - img "Booming Fruits x" [ref=e2623]
+                    - button "Add to favorites" [ref=e2627]:
+                      - img [ref=e2628]
+                    - link [ref=e2631]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:BoomingFruitsX
+                  - generic [ref=e2633] [cursor=pointer]:
+                    - img "Lady & Firedrake" [ref=e2634]
+                    - button "Add to favorites" [ref=e2638]:
+                      - img [ref=e2639]
+                    - link [ref=e2642]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:LadyAndFiredrake
+                  - generic [ref=e2644] [cursor=pointer]:
+                    - img "Landy-Candy" [ref=e2645]
+                    - button "Add to favorites" [ref=e2649]:
+                      - img [ref=e2650]
+                    - link [ref=e2653]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:LandyCandy
+                  - generic [ref=e2655] [cursor=pointer]:
+                    - img "Lucky Crown 81x" [ref=e2656]
+                    - button "Add to favorites" [ref=e2660]:
+                      - img [ref=e2661]
+                    - link [ref=e2664]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:LuckyCrown81x
+                  - generic [ref=e2666] [cursor=pointer]:
+                    - img "Mystical Luck Hold And Win" [ref=e2667]
+                    - button "Add to favorites" [ref=e2671]:
+                      - img [ref=e2672]
+                    - link [ref=e2675]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:MysticalLuckHoldAndWin
+                  - generic [ref=e2677] [cursor=pointer]:
+                    - img "Book of All ways" [ref=e2678]
+                    - button "Add to favorites" [ref=e2682]:
+                      - img [ref=e2683]
+                    - link [ref=e2686]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:BookOfAllWays
+                  - generic [ref=e2688] [cursor=pointer]:
+                    - img "Mega Cash'n Fruits" [ref=e2689]
+                    - button "Add to favorites" [ref=e2693]:
+                      - img [ref=e2694]
+                    - link [ref=e2697]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:MegaCashnFruits
+                  - generic [ref=e2699] [cursor=pointer]:
+                    - img "Dolphins Wealth Win Spins" [ref=e2700]
+                    - button "Add to favorites" [ref=e2704]:
+                      - img [ref=e2705]
+                    - link [ref=e2708]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:DolphinsWealthWinSpins
+                  - generic [ref=e2710] [cursor=pointer]:
+                    - img "Lucky 3 Cherries" [ref=e2711]
+                    - button "Add to favorites" [ref=e2715]:
+                      - img [ref=e2716]
+                    - link [ref=e2719]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:Lucky3Cherries
+                  - generic [ref=e2721] [cursor=pointer]:
+                    - img "Wild Bells 100" [ref=e2722]
+                    - button "Add to favorites" [ref=e2726]:
+                      - img [ref=e2727]
+                    - link [ref=e2730]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:WildBells100
+                  - generic [ref=e2732] [cursor=pointer]:
+                    - img "Epic Joker" [ref=e2733]
+                    - button "Add to favorites" [ref=e2737]:
+                      - img [ref=e2738]
+                    - link [ref=e2741]:
+                      - /url: /en/casino/game/relaxepicjoker
+                  - generic [ref=e2743] [cursor=pointer]:
+                    - img "Luck'n'Power" [ref=e2744]
+                    - button "Add to favorites" [ref=e2748]:
+                      - img [ref=e2749]
+                    - link [ref=e2752]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:LucknPower
+                  - generic [ref=e2754] [cursor=pointer]:
+                    - img "Wild Lady Cash" [ref=e2755]
+                    - button "Add to favorites" [ref=e2759]:
+                      - img [ref=e2760]
+                    - link [ref=e2763]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:WildLadyCash
+                  - generic [ref=e2765] [cursor=pointer]:
+                    - img "Lucky Robbery" [ref=e2766]
+                    - button "Add to favorites" [ref=e2770]:
+                      - img [ref=e2771]
+                    - link [ref=e2774]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:LuckyRobbery
+                  - generic [ref=e2776] [cursor=pointer]:
+                    - img "Buffalo's Wealth Win Spins" [ref=e2777]
+                    - generic [ref=e2779]:
+                      - generic [ref=e2780]: Hot
+                      - button "Add to favorites" [ref=e2781]:
+                        - img [ref=e2782]
+                    - link [ref=e2785]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:BuffalosWealthWinSpins
+                  - generic [ref=e2787] [cursor=pointer]:
+                    - img "Cash'n Fruits 256" [ref=e2788]
+                    - button "Add to favorites" [ref=e2792]:
+                      - img [ref=e2793]
+                    - link [ref=e2796]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:CashnFruits256
+                  - generic [ref=e2798] [cursor=pointer]:
+                    - img "Cash'n Fruits 243" [ref=e2799]
+                    - button "Add to favorites" [ref=e2803]:
+                      - img [ref=e2804]
+                    - link [ref=e2807]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:CashnFruits243
+                  - generic [ref=e2809] [cursor=pointer]:
+                    - img "Very Lucky 243" [ref=e2810]
+                    - button "Add to favorites" [ref=e2814]:
+                      - img [ref=e2815]
+                    - link [ref=e2818]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:VeryLucky243
+                  - generic [ref=e2820] [cursor=pointer]:
+                    - img "Very Lucky 256" [ref=e2821]
+                    - button "Add to favorites" [ref=e2825]:
+                      - img [ref=e2826]
+                    - link [ref=e2829]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:VeryLucky256
+                  - generic [ref=e2831] [cursor=pointer]:
+                    - img "Golden Joker 243 Fortune" [ref=e2832]
+                    - button "Add to favorites" [ref=e2836]:
+                      - img [ref=e2837]
+                    - link [ref=e2840]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:GoldenJoker243Fortune
+                  - generic [ref=e2842] [cursor=pointer]:
+                    - img "Classic Chilli 100" [ref=e2843]
+                    - button "Add to favorites" [ref=e2847]:
+                      - img [ref=e2848]
+                    - link [ref=e2851]:
+                      - /url: /en/casino/game/ss_1spin4win_1spin4win:ClassicChilli100
+              - generic [ref=e2852]:
+                - generic [ref=e2853]:
+                  - heading "Blackjack" [level=2] [ref=e2854]
+                  - generic [ref=e2855]:
+                    - generic [ref=e2856]:
+                      - button "Previous" [disabled]:
+                        - img
+                      - button "Next" [ref=e2857] [cursor=pointer]:
+                        - img [ref=e2858]
+                    - link "View All" [ref=e2860] [cursor=pointer]:
+                      - /url: /en/casino?category=blackjack
+                - generic [ref=e2863]:
+                  - generic [ref=e2865] [cursor=pointer]:
+                    - img "Blackjack" [ref=e2866]
+                    - button "Add to favorites" [ref=e2870]:
+                      - img [ref=e2871]
+                    - link [ref=e2874]:
+                      - /url: /en/casino/game/reevo_gv5401
+                  - generic [ref=e2876] [cursor=pointer]:
+                    - img "Blackjack" [ref=e2877]
+                    - button "Add to favorites" [ref=e2881]:
+                      - img [ref=e2882]
+                    - link [ref=e2885]:
+                      - /url: /en/casino/game/platipus_blackjack
+                  - generic [ref=e2887] [cursor=pointer]:
+                    - img "Surrender Multihand Blackjack" [ref=e2888]
+                    - button "Add to favorites" [ref=e2892]:
+                      - img [ref=e2893]
+                    - link [ref=e2896]:
+                      - /url: /en/casino/game/ss_bgaming_softswiss:SurrenderMultihandBlackjack
+                  - generic [ref=e2898] [cursor=pointer]:
+                    - img "Thor's Blackjack" [ref=e2899]
+                    - button "Add to favorites" [ref=e2903]:
+                      - img [ref=e2904]
+                    - link [ref=e2907]:
+                      - /url: /en/casino/game/reevo_gv55592
+                  - generic [ref=e2909] [cursor=pointer]:
+                    - img "Single Deck Blackjack" [ref=e2910]
+                    - button "Add to favorites" [ref=e2914]:
+                      - img [ref=e2915]
+                    - link [ref=e2918]:
+                      - /url: /en/casino/game/bsg63
+                  - generic [ref=e2920] [cursor=pointer]:
+                    - img "Blackjack Double Exposure 3 Hand" [ref=e2921]
+                    - button "Add to favorites" [ref=e2925]:
+                      - img [ref=e2926]
+                    - link [ref=e2929]:
+                      - /url: /en/casino/game/habBlackJack3HDoubleExposure
+                  - generic [ref=e2931] [cursor=pointer]:
+                    - img "Premium European Blackjack" [ref=e2932]
+                    - button "Add to favorites" [ref=e2936]:
+                      - img [ref=e2937]
+                    - link [ref=e2940]:
+                      - /url: /en/casino/game/platipus_premiumeuropeanblackjack
+                  - generic [ref=e2942] [cursor=pointer]:
+                    - img "Classic Multihand Blackjack" [ref=e2943]
+                    - button "Add to favorites" [ref=e2947]:
+                      - img [ref=e2948]
+                    - link [ref=e2951]:
+                      - /url: /en/casino/game/ss_bgaming_softswiss:ClassicMultihandBlackjack
+                  - generic [ref=e2953] [cursor=pointer]:
+                    - img "Blackjack Vip" [ref=e2954]
+                    - button "Add to favorites" [ref=e2958]:
+                      - img [ref=e2959]
+                    - link [ref=e2962]:
+                      - /url: /en/casino/game/platipus_blackjackvip
+                  - generic [ref=e2964] [cursor=pointer]:
+                    - img "European Blackjack Multihand" [ref=e2965]
+                    - button "Add to favorites" [ref=e2969]:
+                      - img [ref=e2970]
+                    - link [ref=e2973]:
+                      - /url: /en/casino/game/platipus_europeanblackjackmultihand
+                  - generic [ref=e2975] [cursor=pointer]:
+                    - img "Classic Always 6 Blackjack 3" [ref=e2976]
+                    - button "Add to favorites" [ref=e2980]:
+                      - img [ref=e2981]
+                    - link [ref=e2984]:
+                      - /url: /en/casino/game/gh_evo112069
+                  - generic [ref=e2986] [cursor=pointer]:
+                    - img "Classic Always 6 Blackjack 4" [ref=e2987]
+                    - button "Add to favorites" [ref=e2991]:
+                      - img [ref=e2992]
+                    - link [ref=e2995]:
+                      - /url: /en/casino/game/gh_evo112073
+                  - generic [ref=e2997] [cursor=pointer]:
+                    - img "Classic Always 6 Blackjack 1" [ref=e2998]
+                    - button "Add to favorites" [ref=e3002]:
+                      - img [ref=e3003]
+                    - link [ref=e3006]:
+                      - /url: /en/casino/game/gh_evo112061
+                  - generic [ref=e3008] [cursor=pointer]:
+                    - img "Classic Always 6 Blackjack 2" [ref=e3009]
+                    - button "Add to favorites" [ref=e3013]:
+                      - img [ref=e3014]
+                    - link [ref=e3017]:
+                      - /url: /en/casino/game/gh_evo112065
+                  - generic [ref=e3019] [cursor=pointer]:
+                    - img "Double deck Blackjack" [ref=e3020]
+                    - button "Add to favorites" [ref=e3024]:
+                      - img [ref=e3025]
+                    - link [ref=e3028]:
+                      - /url: /en/casino/game/qora_1274
+                  - generic [ref=e3030] [cursor=pointer]:
+                    - img "American Blackjack" [ref=e3031]
+                    - button "Add to favorites" [ref=e3035]:
+                      - img [ref=e3036]
+                    - link [ref=e3039]:
+                      - /url: /en/casino/game/habTGBlackjackAmerican
+                  - generic [ref=e3041] [cursor=pointer]:
+                    - img "Black Jack" [ref=e3042]
+                    - button "Add to favorites" [ref=e3046]:
+                      - img [ref=e3047]
+                    - link [ref=e3050]:
+                      - /url: /en/casino/game/reevo_waz8650
+                  - generic [ref=e3052] [cursor=pointer]:
+                    - img "Single Deck Blackjack" [ref=e3053]
+                    - button "Add to favorites" [ref=e3057]:
+                      - img [ref=e3058]
+                    - link [ref=e3061]:
+                      - /url: /en/casino/game/qora_1195
+                  - generic [ref=e3063] [cursor=pointer]:
+                    - img "Classic Blackjack" [ref=e3064]
+                    - button "Add to favorites" [ref=e3068]:
+                      - img [ref=e3069]
+                    - link [ref=e3072]:
+                      - /url: /en/casino/game/qora_9928
+                  - generic [ref=e3074] [cursor=pointer]:
+                    - img "Multihand Blackjack" [ref=e3075]
+                    - button "Add to favorites" [ref=e3079]:
+                      - img [ref=e3080]
+                    - link [ref=e3083]:
+                      - /url: /en/casino/game/ss_bgaming_softswiss:MultihandBlackjack
+                  - generic [ref=e3085] [cursor=pointer]:
+                    - img "VIP Always 6 Blackjack 3" [ref=e3086]
+                    - button "Add to favorites" [ref=e3090]:
+                      - img [ref=e3091]
+                    - link [ref=e3094]:
+                      - /url: /en/casino/game/gh_evo112529
+                  - generic [ref=e3096] [cursor=pointer]:
+                    - img "VIP Always 6 Blackjack 1" [ref=e3097]
+                    - button "Add to favorites" [ref=e3101]:
+                      - img [ref=e3102]
+                    - link [ref=e3105]:
+                      - /url: /en/casino/game/gh_evo112521
+                  - generic [ref=e3107] [cursor=pointer]:
+                    - img "VIP Always 6 Blackjack 2" [ref=e3108]
+                    - button "Add to favorites" [ref=e3112]:
+                      - img [ref=e3113]
+                    - link [ref=e3116]:
+                      - /url: /en/casino/game/gh_evo112525
+                  - generic [ref=e3118] [cursor=pointer]:
+                    - img "Vegas Blackjack" [ref=e3119]
+                    - button "Add to favorites" [ref=e3123]:
+                      - img [ref=e3124]
+                    - link [ref=e3127]:
+                      - /url: /en/casino/game/reevo_gv56043
+                  - generic [ref=e3129] [cursor=pointer]:
+                    - img "Black Jack" [ref=e3130]
+                    - button "Add to favorites" [ref=e3134]:
+                      - img [ref=e3135]
+                    - link [ref=e3138]:
+                      - /url: /en/casino/game/mascotblackjack_mg
+              - generic [ref=e3139]:
+                - generic [ref=e3140]:
+                  - heading "Roulette" [level=2] [ref=e3141]
+                  - generic [ref=e3142]:
+                    - generic [ref=e3143]:
+                      - button "Previous" [disabled]:
+                        - img
+                      - button "Next" [ref=e3144] [cursor=pointer]:
+                        - img [ref=e3145]
+                    - link "View All" [ref=e3147] [cursor=pointer]:
+                      - /url: /en/casino?category=roulette-games
+                - generic [ref=e3150]:
+                  - generic [ref=e3152] [cursor=pointer]:
+                    - img "European Roulette" [ref=e3153]
+                    - button "Add to favorites" [ref=e3157]:
+                      - img [ref=e3158]
+                    - link [ref=e3161]:
+                      - /url: /en/casino/game/reevo_gv5400
+                  - generic [ref=e3163] [cursor=pointer]:
+                    - img "Who wants to be a Millionaire? Roulette" [ref=e3164]
+                    - button "Add to favorites" [ref=e3168]:
+                      - img [ref=e3169]
+                    - link [ref=e3172]:
+                      - /url: /en/casino/game/relaxwhowantstobemillionaire
+                  - generic [ref=e3174] [cursor=pointer]:
+                    - img "European Roulette Announced Bets" [ref=e3175]
+                    - button "Add to favorites" [ref=e3179]:
+                      - img [ref=e3180]
+                    - link [ref=e3183]:
+                      - /url: /en/casino/game/reevo_th16954
+                  - generic [ref=e3185] [cursor=pointer]:
+                    - img "Roulette Nouveau" [ref=e3186]
+                    - button "Add to favorites" [ref=e3190]:
+                      - img [ref=e3191]
+                    - link [ref=e3194]:
+                      - /url: /en/casino/game/relaxroulettenouveau
+                  - generic [ref=e3196] [cursor=pointer]:
+                    - img "World Cup Roulette" [ref=e3197]
+                    - button "Add to favorites" [ref=e3201]:
+                      - img [ref=e3202]
+                    - link [ref=e3205]:
+                      - /url: /en/casino/game/reevo_gv54234
+                  - generic [ref=e3207] [cursor=pointer]:
+                    - img "European Roulette" [ref=e3208]
+                    - button "Add to favorites" [ref=e3212]:
+                      - img [ref=e3213]
+                    - link [ref=e3216]:
+                      - /url: /en/casino/game/bsg79
+                  - generic [ref=e3218] [cursor=pointer]:
+                    - img "European Roulette VIP" [ref=e3219]
+                    - button "Add to favorites" [ref=e3223]:
+                      - img [ref=e3224]
+                    - link [ref=e3227]:
+                      - /url: /en/casino/game/spnTable_EuropeanRouletteVIP
+                  - generic [ref=e3229] [cursor=pointer]:
+                    - img "Roulette" [ref=e3230]
+                    - button "Add to favorites" [ref=e3234]:
+                      - img [ref=e3235]
+                    - link [ref=e3238]:
+                      - /url: /en/casino/game/ss_yggdrasil_yggdrasil:RouletteEvolution
+                  - generic [ref=e3240] [cursor=pointer]:
+                    - img "French Roulette" [ref=e3241]
+                    - button "Add to favorites" [ref=e3245]:
+                      - img [ref=e3246]
+                    - link [ref=e3249]:
+                      - /url: /en/casino/game/ss_bgaming_softswiss:FrenchRoulette
+                  - generic [ref=e3251] [cursor=pointer]:
+                    - img "European Roulette Christmas Edition" [ref=e3252]
+                    - button "Add to favorites" [ref=e3256]:
+                      - img [ref=e3257]
+                    - link [ref=e3260]:
+                      - /url: /en/casino/game/spnTable_EuropeanRoulette-CE
+                  - generic [ref=e3262] [cursor=pointer]:
+                    - img "French Roulette - La Partage!" [ref=e3263]
+                    - button "Add to favorites" [ref=e3267]:
+                      - img [ref=e3268]
+                    - link [ref=e3271]:
+                      - /url: /en/casino/game/reevo_th54929
+                  - generic [ref=e3273] [cursor=pointer]:
+                    - img "Roulette VIP" [ref=e3274]
+                    - button "Add to favorites" [ref=e3278]:
+                      - img [ref=e3279]
+                    - link [ref=e3282]:
+                      - /url: /en/casino/game/ss_yggdrasil_yggdrasil:RouletteEvolutionVIP
+                  - generic [ref=e3284] [cursor=pointer]:
+                    - img "American Roulette" [ref=e3285]
+                    - button "Add to favorites" [ref=e3289]:
+                      - img [ref=e3290]
+                    - link [ref=e3293]:
+                      - /url: /en/casino/game/reevo_rr10822
+                  - generic [ref=e3295] [cursor=pointer]:
+                    - img "European Roulette" [ref=e3296]
+                    - button "Add to favorites" [ref=e3300]:
+                      - img [ref=e3301]
+                    - link [ref=e3304]:
+                      - /url: /en/casino/game/reevo_rr10826
+                  - generic [ref=e3306] [cursor=pointer]:
+                    - img "European VIP" [ref=e3307]
+                    - button "Add to favorites" [ref=e3311]:
+                      - img [ref=e3312]
+                    - link [ref=e3315]:
+                      - /url: /en/casino/game/reevo_rr10834
+                  - generic [ref=e3317] [cursor=pointer]:
+                    - img "French Roulette" [ref=e3318]
+                    - button "Add to favorites" [ref=e3322]:
+                      - img [ref=e3323]
+                    - link [ref=e3326]:
+                      - /url: /en/casino/game/reevo_rr10831
+                  - generic [ref=e3328] [cursor=pointer]:
+                    - img "European Roulette" [ref=e3329]
+                    - button "Add to favorites" [ref=e3333]:
+                      - img [ref=e3334]
+                    - link [ref=e3337]:
+                      - /url: /en/casino/game/habEURoulette
+                  - generic [ref=e3339] [cursor=pointer]:
+                    - img "Casino Roulette" [ref=e3340]
+                    - button "Add to favorites" [ref=e3344]:
+                      - img [ref=e3345]
+                    - link [ref=e3348]:
+                      - /url: /en/casino/game/reevo_waz8655
+                  - generic [ref=e3350] [cursor=pointer]:
+                    - img "Gold Roulette" [ref=e3351]
+                    - button "Add to favorites" [ref=e3355]:
+                      - img [ref=e3356]
+                    - link [ref=e3359]:
+                      - /url: /en/casino/game/reevo_waz8673
+                  - generic [ref=e3361] [cursor=pointer]:
+                    - img "Platinum Roulette" [ref=e3362]
+                    - button "Add to favorites" [ref=e3366]:
+                      - img [ref=e3367]
+                    - link [ref=e3370]:
+                      - /url: /en/casino/game/reevo_gv53430
+                  - generic [ref=e3372] [cursor=pointer]:
+                    - img "European Roulette" [ref=e3373]
+                    - button "Add to favorites" [ref=e3377]:
+                      - img [ref=e3378]
+                    - link [ref=e3381]:
+                      - /url: /en/casino/game/ss_bgaming_softswiss:EuropeanRoulette
+                  - generic [ref=e3383] [cursor=pointer]:
+                    - img "Turbo Roulette" [ref=e3384]
+                    - button "Add to favorites" [ref=e3388]:
+                      - img [ref=e3389]
+                    - link [ref=e3392]:
+                      - /url: /en/casino/game/reevo_gv9894
+                  - generic [ref=e3394] [cursor=pointer]:
+                    - img "American Roulette" [ref=e3395]
+                    - button "Add to favorites" [ref=e3399]:
+                      - img [ref=e3400]
+                    - link [ref=e3403]:
+                      - /url: /en/casino/game/reevo_gv7131
+                  - generic [ref=e3405] [cursor=pointer]:
+                    - img "American Roulette" [ref=e3406]
+                    - button "Add to favorites" [ref=e3410]:
+                      - img [ref=e3411]
+                    - link [ref=e3414]:
+                      - /url: /en/casino/game/ss_bgaming_softswiss:AmericanRoulette
+                  - generic [ref=e3416] [cursor=pointer]:
+                    - img "Golden Chip Roulette" [ref=e3417]
+                    - button "Add to favorites" [ref=e3421]:
+                      - img [ref=e3422]
+                    - link [ref=e3425]:
+                      - /url: /en/casino/game/ss_yggdrasil_yggdrasil:GoldenChipRoulette
+              - generic [ref=e3426]:
+                - generic [ref=e3427]:
+                  - heading "Table Games" [level=2] [ref=e3428]
+                  - generic [ref=e3429]:
+                    - generic [ref=e3430]:
+                      - button "Previous" [disabled]:
+                        - img
+                      - button "Next" [ref=e3431] [cursor=pointer]:
+                        - img [ref=e3432]
+                    - link "View All" [ref=e3434] [cursor=pointer]:
+                      - /url: /en/casino?category=table-games
+                - generic [ref=e3437]:
+                  - generic [ref=e3439] [cursor=pointer]:
+                    - img "War" [ref=e3440]
+                    - button "Add to favorites" [ref=e3444]:
+                      - img [ref=e3445]
+                    - link [ref=e3448]:
+                      - /url: /en/casino/game/habTGWar
+                  - generic [ref=e3450] [cursor=pointer]:
+                    - img "Roulette" [ref=e3451]
+                    - button "Add to favorites" [ref=e3455]:
+                      - img [ref=e3456]
+                    - link [ref=e3459]:
+                      - /url: /en/casino/game/rg_inout_in_roulette
+                  - generic [ref=e3461] [cursor=pointer]:
+                    - img "Baccarat" [ref=e3462]
+                    - button "Add to favorites" [ref=e3466]:
+                      - img [ref=e3467]
+                    - link [ref=e3470]:
+                      - /url: /en/casino/game/ss_yggdrasil_yggdrasil:BaccaratEvolution
+                  - generic [ref=e3472] [cursor=pointer]:
+                    - img "Supreme 777 Jackpots™" [ref=e3473]
+                    - button "Add to favorites" [ref=e3477]:
+                      - img [ref=e3478]
+                    - link [ref=e3481]:
+                      - /url: /en/casino/game/bsg872
+                  - generic [ref=e3483] [cursor=pointer]:
+                    - img "Caribbean Poker" [ref=e3484]
+                    - button "Add to favorites" [ref=e3488]:
+                      - img [ref=e3489]
+                    - link [ref=e3492]:
+                      - /url: /en/casino/game/bsg12
+                  - generic [ref=e3494] [cursor=pointer]:
+                    - img "Casino Hold'em" [ref=e3495]
+                    - button "Add to favorites" [ref=e3499]:
+                      - img [ref=e3500]
+                    - link [ref=e3503]:
+                      - /url: /en/casino/game/mascotholdem_mg
+                  - generic [ref=e3505] [cursor=pointer]:
+                    - img "Baccarat" [ref=e3506]
+                    - button "Add to favorites" [ref=e3510]:
+                      - img [ref=e3511]
+                    - link [ref=e3514]:
+                      - /url: /en/casino/game/mascotbaccarat_mg
+                  - generic [ref=e3516] [cursor=pointer]:
+                    - img "Casino Hold'em" [ref=e3517]
+                    - button "Add to favorites" [ref=e3521]:
+                      - img [ref=e3522]
+                    - link [ref=e3525]:
+                      - /url: /en/casino/game/platipus_casinoholdem
+                  - generic [ref=e3527] [cursor=pointer]:
+                    - img "Baccarat" [ref=e3528]
+                    - button "Add to favorites" [ref=e3532]:
+                      - img [ref=e3533]
+                    - link [ref=e3536]:
+                      - /url: /en/casino/game/reevo_lk50966
+                  - generic [ref=e3538] [cursor=pointer]:
+                    - img "Caribbean Hold'Em" [ref=e3539]
+                    - button "Add to favorites" [ref=e3543]:
+                      - img [ref=e3544]
+                    - link [ref=e3547]:
+                      - /url: /en/casino/game/habCaribbeanHoldem
+                  - generic [ref=e3549] [cursor=pointer]:
+                    - img "Sic Bo" [ref=e3550]
+                    - button "Add to favorites" [ref=e3554]:
+                      - img [ref=e3555]
+                    - link [ref=e3558]:
+                      - /url: /en/casino/game/platipus_sicbo
+                  - generic [ref=e3560] [cursor=pointer]:
+                    - img "Dragon Tiger" [ref=e3561]
+                    - button "Add to favorites" [ref=e3565]:
+                      - img [ref=e3566]
+                    - link [ref=e3569]:
+                      - /url: /en/casino/game/habTGDragonTiger
+                  - generic [ref=e3571] [cursor=pointer]:
+                    - img "Caribbean Beach Poker" [ref=e3572]
+                    - button "Add to favorites" [ref=e3576]:
+                      - img [ref=e3577]
+                    - link [ref=e3580]:
+                      - /url: /en/casino/game/reevo_waz8654
+                  - generic [ref=e3582] [cursor=pointer]:
+                    - img "Caribbean Club Poker" [ref=e3583]
+                    - button "Add to favorites" [ref=e3587]:
+                      - img [ref=e3588]
+                    - link [ref=e3591]:
+                      - /url: /en/casino/game/platipus_caribbeanclubpoker
+                  - generic [ref=e3593] [cursor=pointer]:
+                    - img "Oasis Poker" [ref=e3594]
+                    - button "Add to favorites" [ref=e3598]:
+                      - img [ref=e3599]
+                    - link [ref=e3602]:
+                      - /url: /en/casino/game/platipus_oasispoker
+                  - generic [ref=e3604] [cursor=pointer]:
+                    - img "Teen Patti" [ref=e3605]
+                    - button "Add to favorites" [ref=e3609]:
+                      - img [ref=e3610]
+                    - link [ref=e3613]:
+                      - /url: /en/casino/game/spin_2293765
+                  - generic [ref=e3615] [cursor=pointer]:
+                    - img "Andar Bahar" [ref=e3616]
+                    - button "Add to favorites" [ref=e3620]:
+                      - img [ref=e3621]
+                    - link [ref=e3624]:
+                      - /url: /en/casino/game/spin_2293764
+                  - generic [ref=e3626] [cursor=pointer]:
+                    - img "Akbar Romeo Walter" [ref=e3627]
+                    - button "Add to favorites" [ref=e3631]:
+                      - img [ref=e3632]
+                    - link [ref=e3635]:
+                      - /url: /en/casino/game/spin_2293763
+                  - generic [ref=e3637] [cursor=pointer]:
+                    - img "32 Cards" [ref=e3638]
+                    - button "Add to favorites" [ref=e3642]:
+                      - img [ref=e3643]
+                    - link [ref=e3646]:
+                      - /url: /en/casino/game/spin_2293762
+                  - generic [ref=e3648] [cursor=pointer]:
+                    - img "Lucky 7" [ref=e3649]
+                    - button "Add to favorites" [ref=e3653]:
+                      - img [ref=e3654]
+                    - link [ref=e3657]:
+                      - /url: /en/casino/game/spin_2293761
+                  - generic [ref=e3659] [cursor=pointer]:
+                    - img "Casino Solitaire" [ref=e3660]
+                    - button "Add to favorites" [ref=e3664]:
+                      - img [ref=e3665]
+                    - link [ref=e3668]:
+                      - /url: /en/casino/game/reevo_gv15338
+                  - generic [ref=e3670] [cursor=pointer]:
+                    - img "Red Dog" [ref=e3671]
+                    - generic [ref=e3674]:
+                      - generic [ref=e3675]: New
+                      - button "Add to favorites" [ref=e3676]:
+                        - img [ref=e3677]
+                    - link [ref=e3680]:
+                      - /url: /en/casino/game/platipus_reddog
+                  - generic [ref=e3682] [cursor=pointer]:
+                    - img "Retro Solitaire" [ref=e3683]
+                    - button "Add to favorites" [ref=e3687]:
+                      - img [ref=e3688]
+                    - link [ref=e3691]:
+                      - /url: /en/casino/game/reevo_gv15550
+                  - generic [ref=e3693] [cursor=pointer]:
+                    - img "Caribbean Stud" [ref=e3694]
+                    - button "Add to favorites" [ref=e3698]:
+                      - img [ref=e3699]
+                    - link [ref=e3702]:
+                      - /url: /en/casino/game/habCaribbeanStud
+                  - generic [ref=e3704] [cursor=pointer]:
+                    - img "Baccarat" [ref=e3705]
+                    - button "Add to favorites" [ref=e3709]:
+                      - img [ref=e3710]
+                    - link [ref=e3713]:
+                      - /url: /en/casino/game/spin_65537
+              - generic [ref=e3714]:
+                - generic [ref=e3715]:
+                  - heading "Video Poker" [level=2] [ref=e3716]
+                  - generic [ref=e3717]:
+                    - generic [ref=e3718]:
+                      - button "Previous" [disabled]:
+                        - img
+                      - button "Next" [ref=e3719] [cursor=pointer]:
+                        - img [ref=e3720]
+                    - link "View All" [ref=e3722] [cursor=pointer]:
+                      - /url: /en/casino?category=video-poker
+                - generic [ref=e3725]:
+                  - generic [ref=e3727] [cursor=pointer]:
+                    - img "Aces 6000 Powerpoker™" [ref=e3728]
+                    - button "Add to favorites" [ref=e3732]:
+                      - img [ref=e3733]
+                    - link [ref=e3736]:
+                      - /url: /en/casino/game/fd_fd-st-aces
+                  - generic [ref=e3738] [cursor=pointer]:
+                    - img "Double Bonus Poker" [ref=e3739]
+                    - button "Add to favorites" [ref=e3743]:
+                      - img [ref=e3744]
+                    - link [ref=e3747]:
+                      - /url: /en/casino/game/habDoubleBonusPoker100Hand
+                  - generic [ref=e3749] [cursor=pointer]:
+                    - img "Deuces Wild" [ref=e3750]
+                    - button "Add to favorites" [ref=e3754]:
+                      - img [ref=e3755]
+                    - link [ref=e3758]:
+                      - /url: /en/casino/game/bsg29
+                  - generic [ref=e3760] [cursor=pointer]:
+                    - img "Bonus Poker Deluxe" [ref=e3761]
+                    - button "Add to favorites" [ref=e3765]:
+                      - img [ref=e3766]
+                    - link [ref=e3769]:
+                      - /url: /en/casino/game/spin_458759
+                  - generic [ref=e3771] [cursor=pointer]:
+                    - img "Bonus Poker" [ref=e3772]
+                    - button "Add to favorites" [ref=e3776]:
+                      - img [ref=e3777]
+                    - link [ref=e3780]:
+                      - /url: /en/casino/game/spin_458758
+                  - generic [ref=e3782] [cursor=pointer]:
+                    - img "Double Bonus Poker" [ref=e3783]
+                    - button "Add to favorites" [ref=e3787]:
+                      - img [ref=e3788]
+                    - link [ref=e3791]:
+                      - /url: /en/casino/game/spin_458760
+                  - generic [ref=e3793] [cursor=pointer]:
+                    - img "Double Double Jackpot Poker" [ref=e3794]
+                    - button "Add to favorites" [ref=e3798]:
+                      - img [ref=e3799]
+                    - link [ref=e3802]:
+                      - /url: /en/casino/game/spin_458762
+                  - generic [ref=e3804] [cursor=pointer]:
+                    - img "Double Double Bonus Poker" [ref=e3805]
+                    - button "Add to favorites" [ref=e3809]:
+                      - img [ref=e3810]
+                    - link [ref=e3813]:
+                      - /url: /en/casino/game/spin_458761
+                  - generic [ref=e3815] [cursor=pointer]:
+                    - img "Double Jackpot Poker" [ref=e3816]
+                    - button "Add to favorites" [ref=e3820]:
+                      - img [ref=e3821]
+                    - link [ref=e3824]:
+                      - /url: /en/casino/game/spin_458763
+                  - generic [ref=e3826] [cursor=pointer]:
+                    - img "Bonus Deuces Wild" [ref=e3827]
+                    - button "Add to favorites" [ref=e3831]:
+                      - img [ref=e3832]
+                    - link [ref=e3835]:
+                      - /url: /en/casino/game/spin_458766
+                  - generic [ref=e3837] [cursor=pointer]:
+                    - img "Sevens Wild" [ref=e3838]
+                    - button "Add to favorites" [ref=e3842]:
+                      - img [ref=e3843]
+                    - link [ref=e3846]:
+                      - /url: /en/casino/game/spin_458765
+                  - generic [ref=e3848] [cursor=pointer]:
+                    - img "Pick'em Poker" [ref=e3849]
+                    - button "Add to favorites" [ref=e3853]:
+                      - img [ref=e3854]
+                    - link [ref=e3857]:
+                      - /url: /en/casino/game/spin_458767
+                  - generic [ref=e3859] [cursor=pointer]:
+                    - img "Jacks or Better" [ref=e3860]
+                    - button "Add to favorites" [ref=e3864]:
+                      - img [ref=e3865]
+                    - link [ref=e3868]:
+                      - /url: /en/casino/game/spin_458753
+                  - generic [ref=e3870] [cursor=pointer]:
+                    - img "Deuces Wild" [ref=e3871]
+                    - button "Add to favorites" [ref=e3875]:
+                      - img [ref=e3876]
+                    - link [ref=e3879]:
+                      - /url: /en/casino/game/spin_458755
+                  - generic [ref=e3881] [cursor=pointer]:
+                    - img "Joker Poker" [ref=e3882]
+                    - button "Add to favorites" [ref=e3886]:
+                      - img [ref=e3887]
+                    - link [ref=e3890]:
+                      - /url: /en/casino/game/spin_458754
+                  - generic [ref=e3892] [cursor=pointer]:
+                    - img "All American Poker" [ref=e3893]
+                    - button "Add to favorites" [ref=e3897]:
+                      - img [ref=e3898]
+                    - link [ref=e3901]:
+                      - /url: /en/casino/game/spin_458757
+                  - generic [ref=e3903] [cursor=pointer]:
+                    - img "Kansas City Lowball Powerpoker™" [ref=e3904]
+                    - button "Add to favorites" [ref=e3908]:
+                      - img [ref=e3909]
+                    - link [ref=e3912]:
+                      - /url: /en/casino/game/fd_fd-st-kansas
+                  - generic [ref=e3914] [cursor=pointer]:
+                    - img "Aces & Eights" [ref=e3915]
+                    - button "Add to favorites" [ref=e3919]:
+                      - img [ref=e3920]
+                    - link [ref=e3923]:
+                      - /url: /en/casino/game/spin_458756
+                  - generic [ref=e3925] [cursor=pointer]:
+                    - img "Bonus Poker" [ref=e3926]
+                    - button "Add to favorites" [ref=e3930]:
+                      - img [ref=e3931]
+                    - link [ref=e3934]:
+                      - /url: /en/casino/game/habBonusPoker100Hand
+                  - generic [ref=e3936] [cursor=pointer]:
+                    - img "Aces & Eights" [ref=e3937]
+                    - button "Add to favorites" [ref=e3941]:
+                      - img [ref=e3942]
+                    - link [ref=e3945]:
+                      - /url: /en/casino/game/habAcesandEights100Hand
+                  - generic [ref=e3947] [cursor=pointer]:
+                    - img "Deuces Wild Powerpoker™" [ref=e3948]
+                    - button "Add to favorites" [ref=e3952]:
+                      - img [ref=e3953]
+                    - link [ref=e3956]:
+                      - /url: /en/casino/game/fd_fd-st-deuces
+                  - generic [ref=e3958] [cursor=pointer]:
+                    - img "Caribbean Stud Poker" [ref=e3959]
+                    - button "Add to favorites" [ref=e3963]:
+                      - img [ref=e3964]
+                    - link [ref=e3967]:
+                      - /url: /en/casino/game/reevo_lk50965
+                  - generic [ref=e3969] [cursor=pointer]:
+                    - img "Video Poker" [ref=e3970]
+                    - button "Add to favorites" [ref=e3974]:
+                      - img [ref=e3975]
+                    - link [ref=e3978]:
+                      - /url: /en/casino/game/reevo_lk50967
+                  - generic [ref=e3980] [cursor=pointer]:
+                    - img "Double Joker Side Bet Powerpoker™" [ref=e3981]
+                    - button "Add to favorites" [ref=e3985]:
+                      - img [ref=e3986]
+                    - link [ref=e3989]:
+                      - /url: /en/casino/game/fd_fd-st-doublejoker
+                  - generic [ref=e3991] [cursor=pointer]:
+                    - img "Tens or Better SideBet Powerpoker™" [ref=e3992]
+                    - button "Add to favorites" [ref=e3996]:
+                      - img [ref=e3997]
+                    - link [ref=e4000]:
+                      - /url: /en/casino/game/fd_fd-st-tens
+              - generic [ref=e4001]:
+                - generic [ref=e4002]:
+                  - heading "Jackpot" [level=2] [ref=e4003]
+                  - generic [ref=e4004]:
+                    - generic [ref=e4005]:
+                      - button "Previous" [disabled]:
+                        - img
+                      - button "Next" [ref=e4006] [cursor=pointer]:
+                        - img [ref=e4007]
+                    - link "View All" [ref=e4009] [cursor=pointer]:
+                      - /url: /en/casino?category=jackpot
+                - generic [ref=e4012]:
+                  - generic [ref=e4014] [cursor=pointer]:
+                    - img "Dr Fortuno" [ref=e4015]
+                    - button "Add to favorites" [ref=e4019]:
+                      - img [ref=e4020]
+                    - link [ref=e4023]:
+                      - /url: /en/casino/game/ss_yggdrasil_yggdrasil:DrFortuno
+                  - generic [ref=e4025] [cursor=pointer]:
+                    - img "Fairy Wins" [ref=e4026]
+                    - button "Add to favorites" [ref=e4030]:
+                      - img [ref=e4031]
+                    - link [ref=e4034]:
+                      - /url: /en/casino/game/qora_1519
+                  - generic [ref=e4036] [cursor=pointer]:
+                    - img "Jackpot Raiders" [ref=e4037]
+                    - button "Add to favorites" [ref=e4041]:
+                      - img [ref=e4042]
+                    - link [ref=e4045]:
+                      - /url: /en/casino/game/ss_yggdrasil_yggdrasil:JackpotRaiders
+                  - generic [ref=e4047] [cursor=pointer]:
+                    - img "Cyperpunk City" [ref=e4048]
+                    - button "Add to favorites" [ref=e4052]:
+                      - img [ref=e4053]
+                    - link [ref=e4056]:
+                      - /url: /en/casino/game/qora_1486
+                  - generic [ref=e4058] [cursor=pointer]:
+                    - img "Caesar's Victory" [ref=e4059]
+                    - generic [ref=e4061]:
+                      - generic [ref=e4062]: Hot
+                      - button "Add to favorites" [ref=e4063]:
+                        - img [ref=e4064]
+                    - link [ref=e4067]:
+                      - /url: /en/casino/game/qora_1485
+                  - generic [ref=e4069] [cursor=pointer]:
+                    - img "777 Deluxe" [ref=e4070]
+                    - button "Add to favorites" [ref=e4074]:
+                      - img [ref=e4075]
+                    - link [ref=e4078]:
+                      - /url: /en/casino/game/qora_1325
+                  - generic [ref=e4080] [cursor=pointer]:
+                    - img "A night with Cleo" [ref=e4081]
+                    - button "Add to favorites" [ref=e4085]:
+                      - img [ref=e4086]
+                    - link [ref=e4089]:
+                      - /url: /en/casino/game/qora_1352
+                  - generic [ref=e4091] [cursor=pointer]:
+                    - img "Gold Rush Gus" [ref=e4092]
+                    - button "Add to favorites" [ref=e4096]:
+                      - img [ref=e4097]
+                    - link [ref=e4100]:
+                      - /url: /en/casino/game/qora_1353
+                  - generic [ref=e4102] [cursor=pointer]:
+                    - img "Elysian Jackpots" [ref=e4103]
+                    - button "Add to favorites" [ref=e4107]:
+                      - img [ref=e4108]
+                    - link [ref=e4111]:
+                      - /url: /en/casino/game/ss_yggdrasil_yggdrasil:ElysianJackpots
+                  - generic [ref=e4113] [cursor=pointer]:
+                    - img "Jackpot Express" [ref=e4114]
+                    - button "Add to favorites" [ref=e4118]:
+                      - img [ref=e4119]
+                    - link [ref=e4122]:
+                      - /url: /en/casino/game/ss_yggdrasil_yggdrasil:JackpotExpress
+                  - generic [ref=e4124] [cursor=pointer]:
+                    - img "Dragon's Siege" [ref=e4125]
+                    - button "Add to favorites" [ref=e4129]:
+                      - img [ref=e4130]
+                    - link [ref=e4133]:
+                      - /url: /en/casino/game/qora_1618
+                  - generic [ref=e4135] [cursor=pointer]:
+                    - img "Faerie Spells" [ref=e4136]
+                    - button "Add to favorites" [ref=e4140]:
+                      - img [ref=e4141]
+                    - link [ref=e4144]:
+                      - /url: /en/casino/game/bsg798
+                  - generic [ref=e4146] [cursor=pointer]:
+                    - img "Dragon Kings" [ref=e4147]
+                    - button "Add to favorites" [ref=e4151]:
+                      - img [ref=e4152]
+                    - link [ref=e4155]:
+                      - /url: /en/casino/game/bsg796
+                  - generic [ref=e4157] [cursor=pointer]:
+                    - img "Reels of Wealth" [ref=e4158]
+                    - generic [ref=e4161]:
+                      - generic [ref=e4162]: Hot
+                      - button "Add to favorites" [ref=e4163]:
+                        - img [ref=e4164]
+                    - link [ref=e4167]:
+                      - /url: /en/casino/game/bsg792
+                  - generic [ref=e4169] [cursor=pointer]:
+                    - img "Legend of the Nile" [ref=e4170]
+                    - button "Add to favorites" [ref=e4174]:
+                      - img [ref=e4175]
+                    - link [ref=e4178]:
+                      - /url: /en/casino/game/bsg775
+                  - generic [ref=e4180] [cursor=pointer]:
+                    - img "Dragon Chase" [ref=e4181]
+                    - button "Add to favorites" [ref=e4185]:
+                      - img [ref=e4186]
+                    - link [ref=e4189]:
+                      - /url: /en/casino/game/qsdragonchase
+                  - generic [ref=e4191] [cursor=pointer]:
+                    - img "Atlantean GigaRise" [ref=e4192]
+                    - button "Add to favorites" [ref=e4196]:
+                      - img [ref=e4197]
+                    - link [ref=e4200]:
+                      - /url: /en/casino/game/ss_yggdrasil_yggdrasil:AtlanteanGigaRise
+                  - generic [ref=e4202] [cursor=pointer]:
+                    - img "Reels & Wheels" [ref=e4203]
+                    - button "Add to favorites" [ref=e4207]:
+                      - img [ref=e4208]
+                    - link [ref=e4211]:
+                      - /url: /en/casino/game/qora_2640
+                  - generic [ref=e4213] [cursor=pointer]:
+                    - img "Mystic Elements" [ref=e4214]
+                    - button "Add to favorites" [ref=e4218]:
+                      - img [ref=e4219]
+                    - link [ref=e4222]:
+                      - /url: /en/casino/game/qora_2538
+                  - generic [ref=e4224] [cursor=pointer]:
+                    - img "15 Coin Bank Bust" [ref=e4225]
+                    - generic [ref=e4228]:
+                      - generic [ref=e4229]: Hot
+                      - button "Add to favorites" [ref=e4230]:
+                        - img [ref=e4231]
+                    - link [ref=e4234]:
+                      - /url: /en/casino/game/qora_8127
+                  - generic [ref=e4236] [cursor=pointer]:
+                    - img "Treasure Room" [ref=e4237]
+                    - button "Add to favorites" [ref=e4241]:
+                      - img [ref=e4242]
+                    - link [ref=e4245]:
+                      - /url: /en/casino/game/bsg158
+                  - generic [ref=e4247] [cursor=pointer]:
+                    - img "Mr. Vegas" [ref=e4248]
+                    - button "Add to favorites" [ref=e4252]:
+                      - img [ref=e4253]
+                    - link [ref=e4256]:
+                      - /url: /en/casino/game/bsg210
+                  - generic [ref=e4258] [cursor=pointer]:
+                    - img "Reels and Wheels XL" [ref=e4259]
+                    - generic [ref=e4262]:
+                      - generic [ref=e4263]: Hot
+                      - button "Add to favorites" [ref=e4264]:
+                        - img [ref=e4265]
+                    - link [ref=e4268]:
+                      - /url: /en/casino/game/qora_3251
+                  - generic [ref=e4270] [cursor=pointer]:
+                    - img "Holmes and the Stolen Stones" [ref=e4271]
+                    - button "Add to favorites" [ref=e4275]:
+                      - img [ref=e4276]
+                    - link [ref=e4279]:
+                      - /url: /en/casino/game/ss_yggdrasil_yggdrasil:Holmes
+                  - generic [ref=e4281] [cursor=pointer]:
+                    - img "Ozwin's Jackpots" [ref=e4282]
+                    - button "Add to favorites" [ref=e4286]:
+                      - img [ref=e4287]
+                    - link [ref=e4290]:
+                      - /url: /en/casino/game/ss_yggdrasil_yggdrasil:OzwinsJackpots
+              - generic [ref=e4291]:
+                - generic [ref=e4292]:
+                  - heading "Other Games" [level=2] [ref=e4293]
+                  - generic [ref=e4294]:
+                    - generic [ref=e4295]:
+                      - button "Previous" [disabled]:
+                        - img
+                      - button "Next" [ref=e4296] [cursor=pointer]:
+                        - img [ref=e4297]
+                    - link "View All" [ref=e4299] [cursor=pointer]:
+                      - /url: /en/casino?category=other-games
+                - generic [ref=e4302]:
+                  - generic [ref=e4304] [cursor=pointer]:
+                    - img "Hot-mines" [ref=e4305]
+                    - button "Add to favorites" [ref=e4309]:
+                      - img [ref=e4310]
+                    - link [ref=e4313]:
+                      - /url: /en/casino/game/rg_inout_in_hot_mines
+                  - generic [ref=e4315] [cursor=pointer]:
+                    - img "Twist" [ref=e4316]
+                    - button "Add to favorites" [ref=e4320]:
+                      - img [ref=e4321]
+                    - link [ref=e4324]:
+                      - /url: /en/casino/game/rg_inout_in_twist
+                  - generic [ref=e4326] [cursor=pointer]:
+                    - img "Triple" [ref=e4327]
+                    - button "Add to favorites" [ref=e4331]:
+                      - img [ref=e4332]
+                    - link [ref=e4335]:
+                      - /url: /en/casino/game/rg_inout_in_triple
+                  - generic [ref=e4337] [cursor=pointer]:
+                    - img "Kite Festival Crash Game" [ref=e4338]
+                    - button "Add to favorites" [ref=e4342]:
+                      - img [ref=e4343]
+                    - link [ref=e4346]:
+                      - /url: /en/casino/game/mascotkite_festival_crash_game
+                  - generic [ref=e4348] [cursor=pointer]:
+                    - img "Paper Lanterns" [ref=e4349]
+                    - button "Add to favorites" [ref=e4353]:
+                      - img [ref=e4354]
+                    - link [ref=e4357]:
+                      - /url: /en/casino/game/mascotpaper_lanterns_crash_game
+                  - generic [ref=e4359] [cursor=pointer]:
+                    - img "Cryptos" [ref=e4360]
+                    - button "Add to favorites" [ref=e4364]:
+                      - img [ref=e4365]
+                    - link [ref=e4368]:
+                      - /url: /en/casino/game/rg_inout_in_cryptos
+                  - generic [ref=e4370] [cursor=pointer]:
+                    - img "Tap The Pot" [ref=e4371]
+                    - button "Add to favorites" [ref=e4375]:
+                      - img [ref=e4376]
+                    - link [ref=e4379]:
+                      - /url: /en/casino/game/platipus_tapthepot
+                  - generic [ref=e4381] [cursor=pointer]:
+                    - img "Cricket Road" [ref=e4382]
+                    - button "Add to favorites" [ref=e4386]:
+                      - img [ref=e4387]
+                    - link [ref=e4390]:
+                      - /url: /en/casino/game/rg_inout_in_cricket_road
+                  - generic [ref=e4392] [cursor=pointer]:
+                    - img "Fisherman's Luck™ Burning Board™" [ref=e4393]
+                    - button "Add to favorites" [ref=e4397]:
+                      - img [ref=e4398]
+                    - link [ref=e4401]:
+                      - /url: /en/casino/game/reevo_waz75320
+                  - generic [ref=e4403] [cursor=pointer]:
+                    - img "MegaBlock" [ref=e4404]
+                    - button "Add to favorites" [ref=e4408]:
+                      - img [ref=e4409]
+                    - link [ref=e4412]:
+                      - /url: /en/casino/game/rg_inout_in_mega_block
+                  - generic [ref=e4414] [cursor=pointer]:
+                    - img "Valentine's Coins™ Burning Board™" [ref=e4415]
+                    - button "Add to favorites" [ref=e4419]:
+                      - img [ref=e4420]
+                    - link [ref=e4423]:
+                      - /url: /en/casino/game/reevo_waz75361
+                  - generic [ref=e4425] [cursor=pointer]:
+                    - img "16 Coins™ Gold Burning Board™" [ref=e4426]
+                    - button "Add to favorites" [ref=e4430]:
+                      - img [ref=e4431]
+                    - link [ref=e4434]:
+                      - /url: /en/casino/game/reevo_waz69508
+                  - generic [ref=e4436] [cursor=pointer]:
+                    - img "Santa's Gift Frenzy Burning Board™" [ref=e4437]
+                    - button "Add to favorites" [ref=e4441]:
+                      - img [ref=e4442]
+                    - link [ref=e4445]:
+                      - /url: /en/casino/game/reevo_waz74070
+                  - generic [ref=e4447] [cursor=pointer]:
+                    - 'img "Mighty Fish™: Blue Marlin Burning Board™" [ref=e4448]'
+                    - button "Add to favorites" [ref=e4452]:
+                      - img [ref=e4453]
+                    - link [ref=e4456]:
+                      - /url: /en/casino/game/reevo_waz69549
+                  - generic [ref=e4458] [cursor=pointer]:
+                    - img "Sizzling Eggs™ Burning Board™" [ref=e4459]
+                    - button "Add to favorites" [ref=e4463]:
+                      - img [ref=e4464]
+                    - link [ref=e4467]:
+                      - /url: /en/casino/game/reevo_waz69547
+                  - generic [ref=e4469] [cursor=pointer]:
+                    - 'img "Mighty Wild™: Panther Platinum Burning Board™" [ref=e4470]'
+                    - button "Add to favorites" [ref=e4474]:
+                      - img [ref=e4475]
+                    - link [ref=e4478]:
+                      - /url: /en/casino/game/reevo_waz69545
+                  - generic [ref=e4480] [cursor=pointer]:
+                    - img "Redwing" [ref=e4481]
+                    - button "Add to favorites" [ref=e4485]:
+                      - img [ref=e4486]
+                    - link [ref=e4489]:
+                      - /url: /en/casino/game/bngredwing
+                  - generic [ref=e4491] [cursor=pointer]:
+                    - 'img "Hot Slot™ : 777 Cash Out Burning Board™" [ref=e4492]'
+                    - button "Add to favorites" [ref=e4496]:
+                      - img [ref=e4497]
+                    - link [ref=e4500]:
+                      - /url: /en/casino/game/reevo_waz69551
+                  - generic [ref=e4502] [cursor=pointer]:
+                    - img "Keno" [ref=e4503]
+                    - button "Add to favorites" [ref=e4507]:
+                      - img [ref=e4508]
+                    - link [ref=e4511]:
+                      - /url: /en/casino/game/spin_851969
+                  - generic [ref=e4513] [cursor=pointer]:
+                    - img "Golden Boot" [ref=e4514]
+                    - button "Add to favorites" [ref=e4518]:
+                      - img [ref=e4519]
+                    - link [ref=e4522]:
+                      - /url: /en/casino/game/reevo_gv7996
+                  - generic [ref=e4524] [cursor=pointer]:
+                    - img "Plinball Machine" [ref=e4525]
+                    - button "Add to favorites" [ref=e4529]:
+                      - img [ref=e4530]
+                    - link [ref=e4533]:
+                      - /url: /en/casino/game/mascotplinball_machine
+                  - generic [ref=e4535] [cursor=pointer]:
+                    - img "For The Realm Deluxe" [ref=e4536]
+                    - button "Add to favorites" [ref=e4540]:
+                      - img [ref=e4541]
+                    - link [ref=e4544]:
+                      - /url: /en/casino/game/mascotfor_the_realm_deluxe
+                  - generic [ref=e4546] [cursor=pointer]:
+                    - img "Bingo Planets" [ref=e4547]
+                    - button "Add to favorites" [ref=e4551]:
+                      - img [ref=e4552]
+                    - link [ref=e4555]:
+                      - /url: /en/casino/game/platipus_bingoplanets
+                  - generic [ref=e4557] [cursor=pointer]:
+                    - img "Fruit Punch Up" [ref=e4558]
+                    - button "Add to favorites" [ref=e4562]:
+                      - img [ref=e4563]
+                    - link [ref=e4566]:
+                      - /url: /en/casino/game/reevo_gv13665
+                  - generic [ref=e4568] [cursor=pointer]:
+                    - img "Diamond Deal" [ref=e4569]
+                    - button "Add to favorites" [ref=e4573]:
+                      - img [ref=e4574]
+                    - link [ref=e4577]:
+                      - /url: /en/casino/game/reevo_gv4091
+          - contentinfo [ref=e4578]:
+            - generic [ref=e4581]:
+              - complementary [ref=e4582]:
+                - img "Betja Logo" [ref=e4583]
+                - generic [ref=e4584]:
+                  - link "Telegram" [ref=e4585] [cursor=pointer]:
+                    - /url: https://t.me/betyacom
+                    - img "Telegram" [ref=e4586]
+                  - link "Instagram" [ref=e4587] [cursor=pointer]:
+                    - /url: https://www.instagram.com/Betyacom/
+                    - img "Instagram" [ref=e4588]
+                  - link "Twitter" [ref=e4589] [cursor=pointer]:
+                    - /url: https://x.com/Betyacom
+                    - img "Twitter" [ref=e4590]
+                - generic [ref=e4591]:
+                  - img "Age Restricted" [ref=e4592]
+                  - generic [ref=e4593]: Persons under the age of 18 are not permitted to register or play.
+              - generic [ref=e4594]:
+                - navigation [ref=e4595]:
+                  - heading "Help and Support" [level=6] [ref=e4596]
+                  - link "Contact Us" [ref=e4597] [cursor=pointer]:
+                    - /url: /en/contact-us
+                  - link "FAQs" [ref=e4598] [cursor=pointer]:
+                    - /url: /en/faq
+                  - link "About Us" [ref=e4599] [cursor=pointer]:
+                    - /url: /en/about-us
+                  - link "General Terms and Conditions" [ref=e4600] [cursor=pointer]:
+                    - /url: /en/terms-and-conditions
+                  - link "Promotions Terms" [ref=e4601] [cursor=pointer]:
+                    - /url: /en/promotional-terms
+                  - link "Privacy Policy" [ref=e4602] [cursor=pointer]:
+                    - /url: /en/privacy-policy
+                  - link "Cookie Policy" [ref=e4603] [cursor=pointer]:
+                    - /url: /en/cookie-policy
+                  - link "Responsible Gaming" [ref=e4604] [cursor=pointer]:
+                    - /url: /en/responsible-gaming
+                  - link "Banking" [ref=e4605] [cursor=pointer]:
+                    - /url: /en/banking
+                  - link "Sitemap" [ref=e4606] [cursor=pointer]:
+                    - /url: /en/sitemap
+                  - link "AML Policy" [ref=e4607] [cursor=pointer]:
+                    - /url: /en/anti-money-laundering
+                - navigation [ref=e4608]:
+                  - heading "Casino" [level=6] [ref=e4609]
+                  - link "Affiliates" [ref=e4610] [cursor=pointer]:
+                    - /url: https://www.betyaaffiliates.com/
+                  - link "Slots" [ref=e4611] [cursor=pointer]:
+                    - /url: /en/casino/slots
+                  - link "Live Casino" [ref=e4612] [cursor=pointer]:
+                    - /url: /en/casino/live-casino
+                  - link "Roulette" [ref=e4613] [cursor=pointer]:
+                    - /url: /en/casino/roulette
+                  - link "Craps" [ref=e4614] [cursor=pointer]:
+                    - /url: /en/casino/craps
+                  - link "Table Games" [ref=e4615] [cursor=pointer]:
+                    - /url: /en/casino/table-games
+                  - link "Poker" [ref=e4616] [cursor=pointer]:
+                    - /url: /en/casino/poker
+                  - link "Progressive Jackpots" [ref=e4617] [cursor=pointer]:
+                    - /url: /en/casino/progressive-jackpots
+                  - link "Blog" [ref=e4618] [cursor=pointer]:
+                    - /url: https://www.betya.com/en/blog
+                - navigation [ref=e4619]:
+                  - heading "Sports" [level=6] [ref=e4620]
+                  - link "Sportbook Rules" [ref=e4621] [cursor=pointer]:
+                    - /url: /en/sportsbetting-rules
+                  - link "Soccer Guide" [ref=e4622] [cursor=pointer]:
+                    - /url: /en/sports/soccer
+                  - link "MMA Guide" [ref=e4623] [cursor=pointer]:
+                    - /url: /en/sports/mma
+                  - link "Basketball Guide" [ref=e4624] [cursor=pointer]:
+                    - /url: /en/sports/basketball
+                  - link "Tennis Guide" [ref=e4625] [cursor=pointer]:
+                    - /url: /en/sports/tennis
+                  - link "Motorsport Guide" [ref=e4626] [cursor=pointer]:
+                    - /url: /en/sports/motorsports
+                  - link "Boxing Guide" [ref=e4627] [cursor=pointer]:
+                    - /url: /en/sports/boxing
+                  - link "Rugby Rules" [ref=e4628] [cursor=pointer]:
+                    - /url: /en/sports/rugby
+                  - link "Horse Racing" [ref=e4629] [cursor=pointer]:
+                    - /url: /en/sports/horse-racing
+                  - link "Virtual Sports" [ref=e4630] [cursor=pointer]:
+                    - /url: /en/sports/virtual-sports
+            - separator [ref=e4631]
+            - generic [ref=e4632]:
+              - generic [ref=e4635]:
+                - img "Bank Transfer" [ref=e4636]
+                - img "Bitcoin" [ref=e4637]
+                - img "Cash to Code" [ref=e4638]
+                - img "Ethereum Coin" [ref=e4639]
+                - img "Lite Coin" [ref=e4640]
+                - img "Tether Coin" [ref=e4641]
+                - img "NeoSurf" [ref=e4642]
+                - img "Visa" [ref=e4643]
+                - img "Master Card" [ref=e4644]
+                - img "Interac" [ref=e4645]
+              - generic [ref=e4646]: BETYA ©2026, All rights reserved
+        - complementary [ref=e4647]:
+          - generic "close sidebar"
+          - generic "open sidebar" [ref=e4648] [cursor=pointer]:
+            - img [ref=e4649]
+          - generic [ref=e4656]:
+            - generic [ref=e4657]:
+              - list [ref=e4659]:
+                - listitem [ref=e4660]:
+                  - link "Rewards" [ref=e4661] [cursor=pointer]:
+                    - /url: /en/rewards
+                    - generic [ref=e4662]: Rewards
+                - listitem [ref=e4663]:
+                  - link "Promotions" [ref=e4664] [cursor=pointer]:
+                    - /url: /en/promotions
+                    - generic [ref=e4665]: Promotions
+                - listitem [ref=e4666]:
+                  - link "Betya VIP+" [ref=e4667] [cursor=pointer]:
+                    - /url: /en/loyalty
+                    - generic [ref=e4668]: Betya VIP+
+                - listitem [ref=e4669]:
+                  - generic [ref=e4671]: Free Spins
+                - listitem [ref=e4672]:
+                  - link "Betya Bucks Store" [ref=e4673] [cursor=pointer]:
+                    - /url: /en/store
+                    - generic [ref=e4674]: Betya Bucks Store
+              - listitem [ref=e4675]:
+                - link "Races" [ref=e4676] [cursor=pointer]:
+                  - /url: /en/races
+                  - generic [ref=e4677]: Races
+            - generic [ref=e4678]: Menu
+            - button "Search…" [ref=e4679] [cursor=pointer]:
+              - generic [ref=e4680]: Search…
+              - img [ref=e4681]
+            - group [ref=e4683] [cursor=pointer]:
+              - generic "Casino" [ref=e4684]:
+                - generic [ref=e4685]:
+                  - img [ref=e4686]
+                  - text: Casino
+            - group [ref=e4690] [cursor=pointer]:
+              - generic "Sports" [ref=e4691]:
+                - generic [ref=e4692]:
+                  - img [ref=e4693]
+                  - text: Sports
+            - list [ref=e4697]:
+              - listitem [ref=e4698]:
+                - link "Settings" [ref=e4699] [cursor=pointer]:
+                  - /url: /en/profile/settings
+                  - generic [ref=e4700]: Settings
+              - listitem [ref=e4701]:
+                - link "Contact Us" [ref=e4702] [cursor=pointer]:
+                  - /url: /en/contact-us
+                  - generic [ref=e4703]: Contact Us
+              - listitem [ref=e4704]:
+                - link "Terms and Conditions" [ref=e4705] [cursor=pointer]:
+                  - /url: /en/terms-and-conditions
+                  - generic [ref=e4706]: Terms and Conditions
+              - listitem [ref=e4707]:
+                - link "Blog" [ref=e4708] [cursor=pointer]:
+                  - /url: https://www.betya.com/en/blog
+                  - generic [ref=e4709]: Blog
+            - generic "Select language" [ref=e4711]:
+              - combobox "Select language" [ref=e4712]:
+                - option "English" [selected]
+                - option "French"
+    - option "$ AUD"
+    - option "$ CAD"
+    - option "€ EUR"
+    - option "$ NZD"
+    - option "$ USD"
+    - option "No Bonus Selected" [selected]
+    - option "Male"
+    - option "Female"
+    - option "Afghanistan" [selected]
+    - option "Albania"
+    - option "Algeria"
+    - option "Andorra"
+    - option "Argentina"
+    - option "Armenia"
+    - option "Belarus"
+    - option "Bhutan"
+    - option "Bolivia"
+    - option "British Indian Ocean Territory"
+    - option "Brunei"
+    - option "Burundi"
+    - option "Cameroon"
+    - option "Canada"
+    - option "Cape Verde"
+    - option "Cayman Islands"
+    - option "Central African Republic"
+    - option "Chad"
+    - option "Chile"
+    - option "Cocos (Keeling) Islands"
+    - option "Colombia"
+    - option "Croatia"
+    - option "Cuba"
+    - option "Djibouti"
+    - option "Dominica"
+    - option "Dominican Republic"
+    - option "Ecuador"
+    - option "Egypt"
+    - option "El Salvador"
+    - option "Eritrea"
+    - option "Ethiopia"
+    - option "Falkland Islands (Malvinas)"
+    - option "Faroe Islands"
+    - option "Fiji"
+    - option "Finland"
+    - option "Gambia"
+    - option "Georgia"
+    - option "Ghana"
+    - option "Gibraltar"
+    - option "Greenland"
+    - option "Grenada"
+    - option "Guam"
+    - option "Guatemala"
+    - option "Guernsey"
+    - option "Guinea"
+    - option "Guinea-Bissau"
+    - option "Guyana"
+    - option "Haiti"
+    - option "Honduras"
+    - option "Hong Kong"
+    - option "Iceland"
+    - option "India"
+    - option "Indonesia"
+    - option "Iraq"
+    - option "Ireland"
+    - option "Jamaica"
+    - option "Japan"
+    - option "Jersey"
+    - option "Jordan"
+    - option "Kazakhstan"
+    - option "Kenya"
+    - option "Kiribati"
+    - option "North Korea"
+    - option "Korea (South)"
+    - option "Kuwait"
+    - option "Laos"
+    - option "Lesotho"
+    - option "Liberia"
+    - option "Libya"
+    - option "Liechtenstein"
+    - option "Lithuania"
+    - option "Luxembourg"
+    - option "Macau"
+    - option "Macedonia"
+    - option "Madagascar"
+    - option "Malawi"
+    - option "Malaysia"
+    - option "Maldives"
+    - option "Mali"
+    - option "Malta"
+    - option "Marshall Islands"
+    - option "Martinique"
+    - option "Mexico"
+    - option "Micronesia"
+    - option "Moldova"
+    - option "Mongolia"
+    - option "Montenegro"
+    - option "Montserrat"
+    - option "Mozambique"
+    - option "Namibia"
+    - option "Nauru"
+    - option "Nepal"
+    - option "Netherlands Antilles"
+    - option "New Zealand"
+    - option "Nicaragua"
+    - option "Niger"
+    - option "Nigeria"
+    - option "Niue"
+    - option "Norfolk Island"
+    - option "Northern Mariana Islands"
+    - option "Norway"
+    - option "Oman"
+    - option "Pakistan"
+    - option "Palau"
+    - option "Palestine"
+    - option "Papua New Guinea"
+    - option "Paraguay"
+    - option "Peru"
+    - option "Pitcairn"
+    - option "Poland"
+    - option "Puerto Rico"
+    - option "Qatar"
+    - option "Réunion"
+    - option "Rwanda"
+    - option "Saint Helena"
+    - option "Saint Kitts and Nevis"
+    - option "Saint Lucia"
+    - option "Saint Martin"
+    - option "Saint Pierre & Miquelon"
+    - option "Saint-Barthelemy"
+    - option "Samoa"
+    - option "San Marino"
+    - option "São Tomé and Príncipe"
+    - option "Saudi Arabia"
+    - option "Senegal"
+    - option "Serbia"
+    - option "Serbia and Montenegro"
+    - option "Seychelles"
+    - option "Sierra Leone"
+    - option "Singapore"
+    - option "Sint Maarten"
+    - option "Slovakia"
+    - option "Slovenia"
+    - option "Solomon Islands"
+    - option "Somalia"
+    - option "South Georgia"
+    - option "South Sudan"
+    - option "Sri Lanka"
+    - option "Saint Vincent and the Grenadines"
+    - option "Sudan"
+    - option "Suriname"
+    - option "Svalbard and Jan Mayen"
+    - option "Swaziland"
+    - option "Sweden"
+    - option "Switzerland"
+    - option "Syria"
+    - option "Taiwan, Province of China"
+    - option "Tajikistan"
+    - option "Tanzania"
+    - option "Thailand"
+    - option "Timor-Leste"
+    - option "Togo"
+    - option "Tokelau"
+    - option "Tonga"
+    - option "Trinidad and Tobago"
+    - option "Tunisia"
+    - option "Turkey"
+    - option "Turkmenistan"
+    - option "Turks and Caicos Islands"
+    - option "Tuvalu"
+    - option "Ukraine"
+    - option "United Arab Emirates"
+    - option "Uruguay"
+    - option "Uzbekistan"
+    - option "Vanuatu"
+    - option "Venezuela"
+    - option "Vietnam"
+    - option "Virgin Islands, British"
+    - option "Virgin Islands, U.S."
+    - option "Wallis & Futuna"
+    - option "Western Sahara"
+    - option "Yemen"
+    - option "Zambia"
+    - option "Zimbabwe"
+    - option "Afghanistan (+93)"
+    - option "Albania (+355)"
+    - option "Algeria (+213)"
+    - option "Andorra (+376)"
+    - option "Angola (+244)"
+    - option "Antigua and Barbuda (+1268)"
+    - option "Argentina (+54)"
+    - option "Armenia (+374)"
+    - option "Aruba (+297)"
+    - option "Australia (+61)"
+    - option "Austria (+43)"
+    - option "Azerbaijan (+994)"
+    - option "Bahamas (+1242)"
+    - option "Bahrain (+973)"
+    - option "Bangladesh (+880)"
+    - option "Barbados (+1246)"
+    - option "Belarus (+375)"
+    - option "Belgium (+32)"
+    - option "Belize (+501)"
+    - option "Benin (+229)"
+    - option "Bhutan (+975)"
+    - option "Bolivia (+591)"
+    - option "Bosnia and Herzegovina (+387)"
+    - option "Botswana (+267)"
+    - option "Brazil (+55)"
+    - option "British Indian Ocean Territory (+246)"
+    - option "Brunei (+673)"
+    - option "Bulgaria (+359)"
+    - option "Burkina Faso (+226)"
+    - option "Burundi (+257)"
+    - option "Cambodia (+855)"
+    - option "Cameroon (+237)"
+    - option "Canada (+1)"
+    - option "Cape Verde (+238)"
+    - option "Caribbean Netherlands (+599)"
+    - option "Cayman Islands (+1)"
+    - option "Central African Republic (+236)"
+    - option "Chad (+235)"
+    - option "Chile (+56)"
+    - option "China (+86)"
+    - option "Colombia (+57)"
+    - option "Comoros (+269)"
+    - option "Congo (+243)"
+    - option "Congo (+242)"
+    - option "Costa Rica (+506)"
+    - option "Côte d'Ivoire (+225)"
+    - option "Croatia (+385)"
+    - option "Cuba (+53)"
+    - option "Curaçao (+599)"
+    - option "Cyprus (+357)"
+    - option "Czech Republic (+420)"
+    - option "Denmark (+45)"
+    - option "Djibouti (+253)"
+    - option "Dominica (+1767)"
+    - option "Dominican Republic (+1)"
+    - option "Ecuador (+593)"
+    - option "Egypt (+20)"
+    - option "El Salvador (+503)"
+    - option "Equatorial Guinea (+240)"
+    - option "Eritrea (+291)"
+    - option "Estonia (+372)"
+    - option "Ethiopia (+251)"
+    - option "Faroe Islands (+298)"
+    - option "Fiji (+679)"
+    - option "Finland (+358)"
+    - option "France (+33)"
+    - option "French Guiana (+594)"
+    - option "French Polynesia (+689)"
+    - option "Gabon (+241)"
+    - option "Gambia (+220)"
+    - option "Georgia (+995)"
+    - option "Germany (+49)"
+    - option "Ghana (+233)"
+    - option "Greece (+30)"
+    - option "Greenland (+299)"
+    - option "Grenada (+1473)"
+    - option "Guadeloupe (+590)"
+    - option "Guam (+1671)"
+    - option "Guatemala (+502)"
+    - option "Guinea (+224)"
+    - option "Guinea-Bissau (+245)"
+    - option "Guyana (+592)"
+    - option "Haiti (+509)"
+    - option "Honduras (+504)"
+    - option "Hong Kong (+852)"
+    - option "Hungary (+36)"
+    - option "Iceland (+354)"
+    - option "India (+91)"
+    - option "Indonesia (+62)"
+    - option "Iran (+98)"
+    - option "Iraq (+964)"
+    - option "Ireland (+353)"
+    - option "Israel (+972)"
+    - option "Italy (+39)"
+    - option "Jamaica (+1876)"
+    - option "Japan (+81)"
+    - option "Jordan (+962)"
+    - option "Kazakhstan (+7)"
+    - option "Kenya (+254)"
+    - option "Kiribati (+686)"
+    - option "Kosovo (+383)"
+    - option "Kuwait (+965)"
+    - option "Kyrgyzstan (+996)"
+    - option "Laos (+856)"
+    - option "Latvia (+371)"
+    - option "Lebanon (+961)"
+    - option "Lesotho (+266)"
+    - option "Liberia (+231)"
+    - option "Libya (+218)"
+    - option "Liechtenstein (+423)"
+    - option "Lithuania (+370)"
+    - option "Luxembourg (+352)"
+    - option "Macau (+853)"
+    - option "Macedonia (+389)"
+    - option "Madagascar (+261)"
+    - option "Malawi (+265)"
+    - option "Malaysia (+60)"
+    - option "Maldives (+960)"
+    - option "Mali (+223)"
+    - option "Malta (+356)"
+    - option "Marshall Islands (+692)"
+    - option "Martinique (+596)"
+    - option "Mauritania (+222)"
+    - option "Mauritius (+230)"
+    - option "Mayotte (+262)"
+    - option "Mexico (+52)"
+    - option "Micronesia (+691)"
+    - option "Moldova (+373)"
+    - option "Monaco (+377)"
+    - option "Mongolia (+976)"
+    - option "Montenegro (+382)"
+    - option "Morocco (+212)"
+    - option "Mozambique (+258)"
+    - option "Myanmar (+95)"
+    - option "Namibia (+264)"
+    - option "Nauru (+674)"
+    - option "Nepal (+977)"
+    - option "Netherlands (+31)"
+    - option "New Caledonia (+687)"
+    - option "New Zealand (+64)"
+    - option "Nicaragua (+505)"
+    - option "Niger (+227)"
+    - option "Nigeria (+234)"
+    - option "North Korea (+850)"
+    - option "Norway (+47)"
+    - option "Oman (+968)"
+    - option "Pakistan (+92)"
+    - option "Palau (+680)"
+    - option "Palestine (+970)"
+    - option "Panama (+507)"
+    - option "Papua New Guinea (+675)"
+    - option "Paraguay (+595)"
+    - option "Peru (+51)"
+    - option "Philippines (+63)"
+    - option "Poland (+48)"
+    - option "Portugal (+351)"
+    - option "Puerto Rico (+1)"
+    - option "Qatar (+974)"
+    - option "Réunion (+262)"
+    - option "Romania (+40)"
+    - option "Russian Federation (+7)"
+    - option "Rwanda (+250)"
+    - option "Saint Kitts and Nevis (+1869)"
+    - option "Saint Lucia (+1758)"
+    - option "Saint Pierre & Miquelon (+508)"
+    - option "Saint Vincent and the Grenadines (+1784)"
+    - option "Samoa (+685)"
+    - option "San Marino (+378)"
+    - option "São Tomé and Príncipe (+239)"
+    - option "Saudi Arabia (+966)"
+    - option "Senegal (+221)"
+    - option "Serbia (+381)"
+    - option "Seychelles (+248)"
+    - option "Sierra Leone (+232)"
+    - option "Singapore (+65)"
+    - option "Slovakia (+421)"
+    - option "Slovenia (+386)"
+    - option "Solomon Islands (+677)"
+    - option "Somalia (+252)"
+    - option "South Africa (+27)" [selected]
+    - option "Korea (South) (+82)"
+    - option "South Sudan (+211)"
+    - option "Spain (+34)"
+    - option "Sri Lanka (+94)"
+    - option "Sudan (+249)"
+    - option "Suriname (+597)"
+    - option "Swaziland (+268)"
+    - option "Sweden (+46)"
+    - option "Switzerland (+41)"
+    - option "Syria (+963)"
+    - option "Taiwan, Province of China (+886)"
+    - option "Tajikistan (+992)"
+    - option "Tanzania (+255)"
+    - option "Thailand (+66)"
+    - option "Timor-Leste (+670)"
+    - option "Togo (+228)"
+    - option "Tonga (+676)"
+    - option "Trinidad and Tobago (+1868)"
+    - option "Tunisia (+216)"
+    - option "Turkey (+90)"
+    - option "Turkmenistan (+993)"
+    - option "Tuvalu (+688)"
+    - option "Uganda (+256)"
+    - option "Ukraine (+380)"
+    - option "United Arab Emirates (+971)"
+    - option "United Kingdom (+44)"
+    - option "United States (+1)"
+    - option "Uruguay (+598)"
+    - option "Uzbekistan (+998)"
+    - option "Vanuatu (+678)"
+    - option "Vatican City (+39)"
+    - option "Venezuela (+58)"
+    - option "Vietnam (+84)"
+    - option "Wallis & Futuna (+681)"
+    - option "Yemen (+967)"
+    - option "Zambia (+260)"
+    - option "Zimbabwe (+263)"
+  - generic: 
+```

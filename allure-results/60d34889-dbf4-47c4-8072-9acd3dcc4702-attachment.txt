@@ -1,0 +1,7 @@
+
+🔹 Test Start: Username Login
+👤 Username: Eurprod
+🌐 Homepage loaded
+✅ Login successful
+🚪 Logout successful
+✅ PASS: Valid login with username and password

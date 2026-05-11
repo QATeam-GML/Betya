@@ -1,0 +1,7 @@
+
+🔹 Test Start: Username Login
+👤 Username: Lokesh
+🌐 Homepage loaded
+✅ Login successful
+❌ FAIL: Valid login with username and password
+❌ STATUS: failed

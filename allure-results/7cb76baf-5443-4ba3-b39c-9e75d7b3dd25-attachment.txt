@@ -1,0 +1,4 @@
+
+🔹 Test Start: Verify logged-in username is displayed
+✅ Username visible: Lakaram
+✅ PASS: Verify logged-in username is displayed

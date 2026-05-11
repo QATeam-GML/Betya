@@ -1,0 +1,3 @@
+⏱ Login duration: 9026ms
+❌ FAIL: Login performance check
+❌ STATUS: failed

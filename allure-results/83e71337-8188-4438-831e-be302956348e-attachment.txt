@@ -1,0 +1,4 @@
+
+🔹 Test Start: Navigate to Casino Page
+🎰 Casino URL: https://www.betya.com/en/casino
+✅ PASS: Login and navigate to Casino page

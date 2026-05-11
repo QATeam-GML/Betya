@@ -1,0 +1,4 @@
+
+🔹 Test Start: Login performance check
+⏱ Login duration: 8344ms
+✅ PASS: Login performance check

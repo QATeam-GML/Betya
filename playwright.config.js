@@ -5,12 +5,16 @@ import { defineConfig, devices } from '@playwright/test';
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
-const path = require('path');
-const fs = require('fs');
-const envPath = path.resolve(__dirname, '.env');
-if (fs.existsSync(envPath)) {
-  require('dotenv').config({ path: envPath });
-}
+import dotenv from 'dotenv';
+import path from 'path';
+
+dotenv.config({
+  path: path.resolve('.env'),
+  quiet: true
+});
+export default defineConfig({
+  // config
+});
 
 /**
  * @see https://playwright.dev/docs/test-configuration
@@ -22,7 +26,7 @@ module.exports = defineConfig({
     timeout: 15000
   },
   /* Run tests in files in parallel */
-  fullyParallel: true,
+  fullyParallel: false,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
